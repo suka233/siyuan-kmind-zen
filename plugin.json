@@ -10,13 +10,14 @@
   "frontends": [
     "all"
   ],
+  "disabledInPublish": true,
   "displayName": {
     "default": "KMind Zen Mind Map Plugin",
-    "zh_CN": "KMind Zen思维导图插件"
+    "zh_CN": "KMind Zen 思维导图插件"
   },
   "description": {
     "default": "A fully redesigned KMind mind mapping plugin for SiYuan. Drag SiYuan documents and blocks directly into your mind maps, with unlimited summary levels, cloze nodes, bidirectional links, and more. Currently in public beta.",
-    "zh_CN": "全新设计的KMind思维导图插件，直接将思源文档和思源块拖入导图中，无限层级概要，节点挖空，节点双链，挖空等，当前为公测版"
+    "zh_CN": "全新设计的 KMind 思维导图插件，可直接将思源文档和思源块拖入导图，支持无限层级概要、节点挖空、节点双链等能力；当前为公测版。"
   },
   "readme": {
     "default": "README.md",

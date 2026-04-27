@@ -1,6 +1,6 @@
 # KMind Zen for SiYuan (Public Beta)
 
-[中文说明](./README_zh_CN.md)
+[中文说明](https://github.com/suka233/siyuan-kmind-zen/blob/main/README_zh_CN.md)
 
 KMind Zen is a next-generation professional mind mapping tool that started in SiYuan and is now expanding into a broader ecosystem. Website: https://kmind.app
 
