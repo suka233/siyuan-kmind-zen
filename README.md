@@ -47,16 +47,21 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 ## QA
 
 Q: What's the difference between KMind Zen and KMind2?
+
 A: KMind Zen is built on a brand-new core, with a more polished look, a cleaner design, and a smoother, more intuitive experience. The magic is in the details, so dive in and try it out.
 
 Q: Do I need to pay again?
+
 A: No. If you previously purchased a KMind2 subscription, whether lifetime or annual, you can upgrade to KMind Zen for free. Global users can contact `kmind_app@outlook.com` by email to get an upgrade code for the SiYuan edition of KMind Zen.
 
 Q: If I only want KMind Zen, is there an early-bird discount?
+
 A: Yes. Enter the early-bird promo code `HELLO-KMIND-ZEN` at checkout to pay 67% of the price. This code expires after 2026-05-20.
 
 Q: Will KMind2 stop getting updates completely?
+
 A: KMind2's feature set is already quite mature. It is also built on the external [mind-map](https://github.com/wanglin2/mind-map) library. Although that library is MIT-licensed, extending KMind2 to more hosts such as an Obsidian plugin or a standalone desktop client would inevitably create conflicts with the original author's product direction. Because of that, all new features will be developed on KMind Zen's self-developed core. KMind2 is entering maintenance mode and will remain stable and usable. If future SiYuan updates make KMind2 unavailable, fixes will be provided promptly.
 
 Q: Does KMind Zen still offer an education discount?
+
 A: Yes. The policy is the same as KMind2. Send a non-failing transcript from your school's academic email account to `kmind_app@outlook.com`, and you can follow the instructions to receive a free annual KMind Zen membership.
