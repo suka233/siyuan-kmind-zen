@@ -6,6 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
+## What's new in 0.2.0 (2026-04-29)
+
+- Upgraded the shared KMind core to 0.2.0.
+- Fixed chemical equation rendering in edge cases, including mhchem labels that contain CJK text.
+- Refreshed the SiYuan dock icon with a cleaner host-colored glyph that fits better with SiYuan light and dark themes.
+
 ## Features
 
 - Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the upcoming desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.

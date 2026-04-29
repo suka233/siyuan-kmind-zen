@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.2.0 - 2026-04-29
+
+### English
+
+- Upgrade the shared KMind core to 0.2.0.
+- Fix chemical equation rendering in extreme cases, including mhchem labels that contain CJK text.
+- Refresh the SiYuan dock icon with a cleaner host-colored `currentColor` glyph, so it fits better with SiYuan light and dark themes.
+
+### 中文
+
+- 将共享 KMind 内核升级到 0.2.0。
+- 修复极端情况下的化学方程式渲染问题，包括 mhchem 条件标签中包含中文时的显示异常。
+- 更新思源 Dock 栏图标视觉效果，改为更清爽的 `currentColor` 单色字形，以更好适配思源浅色和深色主题。
+
 ## 0.1.0 - 2026-04-04
 
 - Initial public release of KMind Zen for SiYuan.
