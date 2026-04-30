@@ -1,5 +1,15 @@
 # KMind Zen SiYuan Changelog
 
+## 0.3.3 - 2026-04-30
+
+### English
+
+- Fix the notes rich text toolbar layering and click behavior in SiYuan.
+
+### 中文
+
+- 修复思源端备注富文本工具栏被遮挡、点击后动作不生效的问题。
+
 ## 0.3.2 - 2026-04-30
 
 ### English
