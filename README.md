@@ -6,9 +6,10 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.3.1 (2026-04-30)
+## What's new in 0.3.2 (2026-04-30)
 
-- Fixed duplicated KMind Zen icons in the SiYuan topbar and dock after long-running sessions, plugin data sync, or development reloads.
+- Improved SiYuan entry stability after long-running sessions, plugin data sync, and development reloads.
+- Fixed cases where the KMind Zen dock entry may not appear after the previous stability update.
 
 ## Features
 

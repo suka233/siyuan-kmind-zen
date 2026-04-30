@@ -1,5 +1,17 @@
 # KMind Zen SiYuan Changelog
 
+## 0.3.2 - 2026-04-30
+
+### English
+
+- Improve SiYuan entry stability after long-running sessions, plugin data sync, and development reloads.
+- Fix cases where the KMind Zen dock entry may not appear after the 0.3.1 stability update.
+
+### 中文
+
+- 提升思源长时间运行、同步插件数据或开发重载后的入口稳定性。
+- 修复 0.3.1 稳定性更新后，部分情况下 KMind Zen Dock 入口可能不显示的问题。
+
 ## 0.3.1 - 2026-04-30
 
 ### English
