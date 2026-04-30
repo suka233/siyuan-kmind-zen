@@ -1,5 +1,29 @@
 # KMind Zen SiYuan Changelog
 
+## 0.3.1 - 2026-04-30
+
+### English
+
+- Fix duplicated KMind Zen topbar and dock icons after SiYuan stays open for a long time, syncs plugin data, or reloads the plugin during development.
+
+### 中文
+
+- 修复思源长时间运行、同步插件数据或开发重载后，顶部栏和 Dock 栏重复出现 KMind Zen 图标的问题。
+
+## 0.3.0 - 2026-04-29
+
+### English
+
+- Add XMind file import support through the shared KMind import flow.
+- Support modern `.xmind` files with `content.json`, including topic trees, free topics, multi-sheet projects, notes, labels, hyperlinks, images, relationships, and summaries.
+- Report unsupported XMind features before import, and fail clearly for legacy XML, encrypted files, or unsupported zip compression.
+
+### 中文
+
+- 通过共享 KMind 导入流程新增 XMind 文件导入支持。
+- 支持现代 `.xmind` 文件中的 `content.json`，包括主题树、自由主题、多画布项目、备注、标签、超链接、图片、关联线和概要。
+- 导入前提示暂不支持的 XMind 特性；旧版 XML、加密文件或不支持的 zip 压缩方式会明确失败。
+
 ## 0.2.0 - 2026-04-29
 
 ### English
