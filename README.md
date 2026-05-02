@@ -6,12 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.4.0 (2026-05-02)
+## What's new in 0.4.1 (2026-05-02)
 
-- Added one-click SiYuan document map view, with full block tree preview and heading outline organization modes.
-- Full block tree mode is designed for reading and exporting, preserving rich inline content, lists, images, formulas, tables, blockquotes, callouts, super blocks, and safe fallbacks for complex blocks where possible.
-- Heading outline mode can open editable SiYuan Protyle popovers from map nodes and reorder headings back into the source document.
-- The top-right document map capsule now includes mode switching, refresh, return to editor, create map, copy PNG, and progress feedback. Oversized PNG copies now explain the client bitmap limit.
+- Fixed node context menu behavior after multi-selecting nodes. Right-clicking an already selected node now keeps the full multi-selection highlighted.
+- Node context menu actions now use the node that was right-clicked as their explicit target, including copy, todo, submap, expand, collapse, and SiYuan protocol link actions.
+- Delete from the node context menu still follows the existing multi-selection delete behavior.
 
 ## Features
 

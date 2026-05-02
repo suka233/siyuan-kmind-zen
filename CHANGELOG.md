@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.4.1 - 2026-05-02
+
+### English
+
+- Fix node context menu behavior after multi-selecting nodes: right-clicking an already selected node now keeps the full multi-selection highlighted.
+- Make node context menu actions use the node that was right-clicked as their explicit target, including copy, todo, submap, expand, collapse, and SiYuan protocol link actions.
+- Keep delete behavior aligned with multi-selection, so deleting from the node context menu still deletes the selected node group.
+
+### 中文
+
+- 修复多选节点后的右键菜单行为：右键某个已选节点时，其它已选节点会继续保持选中态。
+- 节点右键菜单现在会以被右键的节点作为明确目标，覆盖复制、待办、子导图、展开、折叠和思源协议链接等操作。
+- 保持删除行为与多选语义一致，从节点右键菜单删除时仍会删除当前选中的节点组。
+
 ## 0.4.0 - 2026-05-02
 
 ### English
