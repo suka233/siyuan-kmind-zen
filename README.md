@@ -6,11 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.4.1 (2026-05-02)
+## What's new in 0.5.0 (2026-05-03)
 
-- Fixed node context menu behavior after multi-selecting nodes. Right-clicking an already selected node now keeps the full multi-selection highlighted.
-- Node context menu actions now use the node that was right-clicked as their explicit target, including copy, todo, submap, expand, collapse, and SiYuan protocol link actions.
-- Delete from the node context menu still follows the existing multi-selection delete behavior.
+- The Project Popover now uses visual layout and theme cards, including light/dark theme previews, rainbow edge settings, and background color presets plus custom color input.
+- The root-node theme switching popover now shows visual layout, theme, and edge route previews before applying changes.
+- Layout, theme, and edge route names are localized in the SiYuan plugin UI.
+- KMind Zen now uses the shared KMind core 0.3.0.
 
 ## Features
 

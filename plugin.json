@@ -2,7 +2,7 @@
   "name": "siyuan-kmind-zen",
   "author": "suka233",
   "url": "https://github.com/suka233/siyuan-kmind-zen",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "minAppVersion": "3.0.0",
   "backends": [
     "all"
