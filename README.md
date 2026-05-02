@@ -6,9 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.3.3 (2026-04-30)
+## What's new in 0.4.0 (2026-05-02)
 
-- Fixed the notes rich text toolbar being covered or losing clicks while editing notes in SiYuan.
+- Added one-click SiYuan document map view, with full block tree preview and heading outline organization modes.
+- Full block tree mode is designed for reading and exporting, preserving rich inline content, lists, images, formulas, tables, blockquotes, callouts, super blocks, and safe fallbacks for complex blocks where possible.
+- Heading outline mode can open editable SiYuan Protyle popovers from map nodes and reorder headings back into the source document.
+- The top-right document map capsule now includes mode switching, refresh, return to editor, create map, copy PNG, and progress feedback. Oversized PNG copies now explain the client bitmap limit.
 
 ## Features
 
@@ -30,6 +33,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 ## Built for SiYuan
 
 - Create KMind Zen mind maps directly from the SiYuan document tree, with native support for SiYuan tags, links, and related concepts.
+- Turn ordinary SiYuan documents into map views, either as a read-only full block tree preview or as a heading outline organizer, then create an editable child mind map from the result.
 - Drag documents from the SiYuan document tree into a map to create document cards. Document cards are special nodes that still support child nodes, relationship lines, and other map operations. They default to preview mode, where preview content refreshes at a lower frequency for performance. You can switch to live mode at any time.
 - Drag SiYuan blocks directly into a map to create block cards. Block cards are also special nodes that can have child nodes, relationship lines, and more.
 - Create mind maps from the SiYuan dock.
@@ -45,7 +49,8 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 
 ## Limitations
 
-- KMind Zen does not yet include every KMind2 feature. The main gaps right now are MOC mode, one-click conversion from SiYuan documents to KMind maps, richer shortcut support, and broader import/export options. These capabilities will be redesigned in the KMind Zen style and released gradually.
+- KMind Zen does not yet include every KMind2 feature. The main gaps right now are MOC mode, richer shortcut support, and broader import/export options. These capabilities will be redesigned in the KMind Zen style and released gradually.
+- Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
 
 ## QA

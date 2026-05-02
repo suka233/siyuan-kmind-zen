@@ -1,5 +1,25 @@
 # KMind Zen SiYuan Changelog
 
+## 0.4.0 - 2026-05-02
+
+### English
+
+- Add one-click SiYuan document map view with full block tree preview and heading outline modes.
+- Support creating an editable KMind Zen child document from the current document map view.
+- Add the document map capsule controls for mode switching, refresh, return to editor, create map, copy as PNG, and long-running progress feedback.
+- Improve full block tree conversion fidelity for rich inline content, lists, images, formulas, tables, blockquotes, callouts, super blocks, and safe fallback cards for complex blocks.
+- Allow heading outline nodes to open editable SiYuan Protyle popovers and reorder headings through SiYuan's outline move API.
+- Clarify read-only preview boundaries and report oversized PNG copy failures as client bitmap limits instead of clipboard permission errors.
+
+### 中文
+
+- 新增思源文档一键导图视图，支持完整块树预览和标题大纲两种模式。
+- 支持将当前文档导图视图创建为可编辑的 KMind Zen 子文档导图。
+- 新增文档导图右上角胶囊操作区，支持模式切换、刷新、返回编辑、创建导图、复制 PNG 和耗时进度提示。
+- 提升完整块树转换保真度，覆盖行级富文本、列表、图片、公式、表格、引述块、提示块、超级块，以及复杂块的安全回退卡片。
+- 标题大纲模式支持打开可编辑的思源 Protyle 浮窗，并通过思源大纲移动 API 写回标题顺序或层级。
+- 明确模式一只读预览边界；复制 PNG 过大时提示客户端位图限制，而不是泛化为剪贴板权限问题。
+
 ## 0.3.3 - 2026-04-30
 
 ### English
