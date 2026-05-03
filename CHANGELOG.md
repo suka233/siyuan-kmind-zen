@@ -1,5 +1,25 @@
 # KMind Zen SiYuan Changelog
 
+## 0.6.0 - 2026-05-03
+
+### English
+
+- Add SiYuan MOC document-tree maps, including document-level MOC mode and notebook-level MOC tabs.
+- Support organizing MOC nodes as SiYuan documents: create child documents, rename titles, reorder or move documents, and delete documents after confirmation.
+- Show MOC nodes with SiYuan document-tree style icons and document preview links, and keep the SiYuan file tree refreshed after MOC writebacks.
+- Add MOC capsule actions for refresh and copying the current MOC map as PNG, with clearer messages for client bitmap limits.
+- Make SiYuan doc-to-map and MOC part of the Pro feature set, while keeping Dock maps free.
+- Fix MOC menu icon rendering and alignment in SiYuan document and notebook context menus.
+
+### 中文
+
+- 新增思源 MOC 文档树导图，支持文档级 MOC 模式和笔记本级 MOC 标签页。
+- 支持在 MOC 中以导图方式整理思源文档：新建子文档、重命名标题、调整顺序或层级，以及二次确认后删除文档。
+- MOC 节点改为展示接近思源文档树的图标和文档预览链接，并在写回后刷新思源文件树。
+- MOC 胶囊支持刷新和复制当前 MOC 导图为 PNG，并对客户端位图限制给出更准确提示。
+- 将思源文档一键转导图和 MOC 纳入 Pro 功能范围，Dock 导图仍保持免费。
+- 修复思源文档和笔记本右键菜单中的 MOC 图标渲染与对齐问题。
+
 ## 0.5.0 - 2026-05-03
 
 ### English
