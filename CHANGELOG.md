@@ -1,5 +1,41 @@
 # KMind Zen SiYuan Changelog
 
+## 0.9.0 - 2026-05-09
+
+### English
+
+- Add shortcut customization in the SiYuan plugin settings, with changes applying across KMind Zen tabs.
+- Rework the SiYuan settings dialog into clearer sections so general options and shortcuts are easier to browse.
+- Add a rich-text shortcut reference for node text, notes, and comments.
+- Show the current shortcut next to supported context-menu actions, including custom bindings.
+- Add more default shortcuts for notes, comments, zoom reset, submaps, and common copy/paste actions.
+
+### 中文
+
+- 新增思源插件全局快捷键配置，修改后会对 KMind Zen 导图标签页统一生效。
+- 重构思源设置弹窗，将常规设置和快捷键设置分区展示，浏览更轻松。
+- 快捷键面板新增富文本快捷键提示，覆盖节点正文、备注和批注编辑。
+- 右键菜单会在对应操作旁显示当前真实快捷键，包括用户自定义后的快捷键。
+- 补齐备注、批注、重置缩放、子导图和常用复制粘贴操作的默认快捷键。
+
+## 0.8.0 - 2026-05-08
+
+### English
+
+- Add SiYuan PDF annotation links: copy a PDF annotation in SiYuan, paste it onto a KMind Zen node, and click the PDF icon to jump back to that annotation.
+- Support both text annotations and rectangle annotations copied from SiYuan's PDF reader.
+- When no node is selected, pasting a PDF annotation now creates a new node with the PDF link.
+- Keep legacy KMind PDF annotation links openable in KMind Zen.
+- PDF annotation links are not treated as SiYuan block previews, avoiding incorrect hover previews.
+
+### 中文
+
+- 新增思源 PDF 标注链接：在思源 PDF 阅读器复制标注后，可直接粘贴到 KMind Zen 节点，并通过 PDF 图标跳回对应标注。
+- 支持思源 PDF 的文字标注和矩形标注复制格式。
+- 未选中节点时，粘贴 PDF 标注会自动创建一个带 PDF 链接的新节点。
+- 兼容旧 KMind 的 PDF 标注链接，迁移后的导图仍可打开对应标注。
+- PDF 标注链接不会被当作思源块预览处理，避免悬浮时出现错误预览。
+
 ## 0.7.0 - 2026-05-08
 
 ### English
