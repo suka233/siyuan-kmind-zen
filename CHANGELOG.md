@@ -1,5 +1,23 @@
 # KMind Zen SiYuan Changelog
 
+## 0.7.0 - 2026-05-08
+
+### English
+
+- Add SiYuan mirror blocks: copy a whole map or a selected node from KMind Zen, paste it into normal SiYuan content, and render a read-only live map preview.
+- Add SiYuan block maps: insert a KMind Zen map from the slash menu, show it as a native image in the note, and open it from the image action button for editing.
+- Block maps export as normal images while still carrying a recoverable KMind Zen map package.
+- Refresh mirror blocks after the source map is saved, including documents that contain multiple mirror blocks from the same map.
+- Upgrade the shared KMind core to 0.4.0 with a smoother experience for large maps, outline mode, and split mode.
+
+### 中文
+
+- 新增思源镜像块：可以从 KMind Zen 源导图复制整图或选中节点，粘贴到普通思源正文后以只读导图预览呈现。
+- 新增思源块导图：可以从斜杠菜单在正文插入 KMind Zen 导图，正文中表现为思源原生图片块，点击图片右上角编辑按钮即可快速编辑。
+- 块导图导出思源文档时仍是普通图片，同时图片自身也携带可恢复的 KMind Zen 导图包。
+- 源导图保存后镜像块自动刷新；同一文档内放置多个镜像块时，也会同步显示最新内容。
+- 将共享 KMind 内核升级到 0.4.0，大图、导图、大纲和分屏体验更顺滑。
+
 ## 0.6.0 - 2026-05-03
 
 ### English
