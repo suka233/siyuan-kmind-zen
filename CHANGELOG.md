@@ -1,5 +1,23 @@
 # KMind Zen SiYuan Changelog
 
+## 0.10.0 - 2026-05-15
+
+### English
+
+- Design and save local KMind Zen themes directly inside the SiYuan plugin.
+- Import and export `.kmind-theme.json` packages for offline theme sharing.
+- Apply local themes from the map theme popover after saving or importing them.
+- Use compact, default, and relaxed project density presets to adjust map spacing quickly.
+- Upgrade the shared KMind core to 0.5.0, improve performance, fix theme spacing isolation, and improve core-layout vertical spacing stability.
+
+### 中文
+
+- 可以直接在思源插件中设计并保存本地 KMind Zen 主题。
+- 支持导入 / 导出 `.kmind-theme.json` 离线主题分享包。
+- 保存或导入本地主题后，可以从导图内主题 Popover 应用到当前项目。
+- 项目设置新增紧凑、默认、舒展三档密度预设，用于快速调整导图间距。
+- 更新内核至 0.5.0，优化性能，修复主题间距隔离问题，并优化内核布局的纵向间距稳定性。
+
 ## 0.9.0 - 2026-05-09
 
 ### English

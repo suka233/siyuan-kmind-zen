@@ -6,19 +6,20 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.9.0 (2026-05-09)
+## What's new in 0.10.0 (2026-05-15)
 
-- Configure KMind Zen shortcuts from the SiYuan plugin settings, with changes applying across KMind Zen tabs.
-- Browse general settings and shortcut settings in clearer sections.
-- See rich-text editing shortcuts for node text, notes, and comments.
-- See the current shortcut next to supported context-menu actions, including custom bindings.
-- Use more default shortcuts for notes, comments, zoom reset, submaps, and common copy/paste actions.
+- Design and save local KMind Zen themes directly inside the SiYuan plugin.
+- Import and export `.kmind-theme.json` packages for offline theme sharing.
+- Apply local themes from the map theme popover after saving or importing them.
+- Use compact, default, and relaxed project density presets to adjust map spacing quickly.
+- Upgrade the shared KMind core to 0.5.0, improve performance, fix theme spacing isolation, and improve core-layout vertical spacing stability.
 
 ## Features
 
 - Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the upcoming desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
+- A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
 - Unlimited summary nesting, so summaries can contain their own summaries at any depth.
 - Flexible cloze support for both nodes and notes, designed for memorization and review.
 - An improved formula editor that can be opened quickly from the slash menu.
@@ -59,6 +60,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Document-tree mind maps, SiYuan doc-to-map, MOC, and new mirror-block creation require Pro. Existing mirror blocks remain readable and refreshable. Dock maps remain free.
 - Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
+- Maps saved with the new project/root spacing settings may not preserve those spacing settings if later opened and saved by an older KMind Zen version.
 
 ## QA
 
