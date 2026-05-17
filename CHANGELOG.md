@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.11.0 - 2026-05-17
+
+### English
+
+- Add polished PNG export with the currently available clean window frame style.
+- Add PNG clarity options in the export dialog so exported images can balance size and sharpness.
+- Improve the canvas and node "Copy as image" context menu with visual style previews for original and window-framed images.
+- Improve context-menu submenu hover tolerance.
+
+### 中文
+
+- 普通 PNG 导出新增图片美化能力，当前开放简洁窗口外框风格。
+- 导出弹窗新增 PNG 清晰度选择，可在文件体积和图片清晰度之间按需取舍。
+- 画布和节点右键“复制为图片”升级为带预览的样式选择，支持原图和窗口外框图片。
+- 优化右键菜单二级菜单的悬停宽限。
+
 ## 0.10.0 - 2026-05-15
 
 ### English

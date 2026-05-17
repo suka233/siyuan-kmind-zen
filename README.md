@@ -6,13 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.10.0 (2026-05-15)
+## What's new in 0.11.0 (2026-05-17)
 
-- Design and save local KMind Zen themes directly inside the SiYuan plugin.
-- Import and export `.kmind-theme.json` packages for offline theme sharing.
-- Apply local themes from the map theme popover after saving or importing them.
-- Use compact, default, and relaxed project density presets to adjust map spacing quickly.
-- Upgrade the shared KMind core to 0.5.0, improve performance, fix theme spacing isolation, and improve core-layout vertical spacing stability.
+- Export polished PNG images with the currently available clean window frame style.
+- Choose PNG clarity in the export dialog to balance file size and image sharpness.
+- Copy original or window-framed images from the canvas and node context menus with visual style previews.
+- Context-menu submenus now have more forgiving hover behavior.
 
 ## Features
 
@@ -20,6 +19,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
+- Polished PNG export and copy-as-image styles for cleaner sharing screenshots.
 - Unlimited summary nesting, so summaries can contain their own summaries at any depth.
 - Flexible cloze support for both nodes and notes, designed for memorization and review.
 - An improved formula editor that can be opened quickly from the slash menu.
