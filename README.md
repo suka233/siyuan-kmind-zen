@@ -6,12 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.11.0 (2026-05-17)
+## What's new in 0.12.0 (2026-05-18)
 
-- Export polished PNG images with the currently available clean window frame style.
-- Choose PNG clarity in the export dialog to balance file size and image sharpness.
-- Copy original or window-framed images from the canvas and node context menus with visual style previews.
-- Context-menu submenus now have more forgiving hover behavior.
+- Improved relationship line editing and interactions, including dashed and dotted line styles.
+- Added relationship line color configuration.
+- Added project-level relationship line settings for consistent map-wide relationship styling.
+- Added relationship line support for summaries.
 
 ## Features
 
@@ -20,6 +20,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
 - Polished PNG export and copy-as-image styles for cleaner sharing screenshots.
+- Advanced relationship line editing, including dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
 - Unlimited summary nesting, so summaries can contain their own summaries at any depth.
 - Flexible cloze support for both nodes and notes, designed for memorization and review.
 - An improved formula editor that can be opened quickly from the slash menu.
@@ -60,7 +61,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Document-tree mind maps, SiYuan doc-to-map, MOC, and new mirror-block creation require Pro. Existing mirror blocks remain readable and refreshable. Dock maps remain free.
 - Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
-- Maps saved with the new project/root spacing settings may not preserve those spacing settings if later opened and saved by an older KMind Zen version.
+- Maps saved with the new project/root spacing or project-level relationship line settings may not preserve those settings if later opened and saved by an older KMind Zen version.
 
 ## QA
 

@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.12.0 - 2026-05-18
+
+### English
+
+- Improve relationship line editing and interactions, with new dashed and dotted line styles.
+- Add relationship line color configuration for clearer cross-branch structure.
+- Add project-level relationship line settings so maps can keep a consistent relationship style.
+- Add relationship line support for summaries.
+
+### 中文
+
+- 优化关联线功能与交互，新增虚线 / 点线样式选择。
+- 新增关联线颜色配置，让跨分支关系表达更清晰。
+- 新增项目级别关联线配置，便于整张导图保持统一的关联线风格。
+- 为概要新增关联线支持。
+
 ## 0.11.0 - 2026-05-17
 
 ### English
