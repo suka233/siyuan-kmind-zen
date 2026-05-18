@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.13.0 - 2026-05-18
+
+### English
+
+- Improve summary node localization and interaction details.
+- Add bulk node dragging: after multi-selecting nodes, drag any selected node to move them together.
+- Add automatic node centering when a map is first created.
+
+### 中文
+
+- 优化概要节点 i18n 和交互细节。
+- 新增批量节点拖拽：多选节点后，按住任意已选中节点即可整体移动。
+- 新增初次创建导图时，节点自动居中的功能。
+
 ## 0.12.0 - 2026-05-18
 
 ### English

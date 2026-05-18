@@ -6,12 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.12.0 (2026-05-18)
+## What's new in 0.13.0 (2026-05-18)
 
-- Improved relationship line editing and interactions, including dashed and dotted line styles.
-- Added relationship line color configuration.
-- Added project-level relationship line settings for consistent map-wide relationship styling.
-- Added relationship line support for summaries.
+- Improved summary node localization and interaction details.
+- Added bulk node dragging: after multi-selecting nodes, drag any selected node to move them together.
+- Added automatic node centering when a map is first created.
 
 ## Features
 
@@ -27,7 +26,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Enhanced global search that goes beyond node text and also covers notes, comments, and more.
 - Bidirectional links between nodes.
 - Node comments that are distinct from notes and can be reviewed in chronological order, making it easier to revisit the thinking process behind a map.
-- Refined drag-and-drop interactions for a smoother editing experience.
+- Refined drag-and-drop interactions, including bulk dragging for selected node groups.
 - Improved hyperlink support, including multiple links per node and custom icons for each link.
 - A more polished Zen mode and read-only experience, with the current state clearly visible and easy to exit from the top-right corner.
 - A mobile experience optimized as much as possible, with a dedicated UI for mobile devices. More feedback is still needed to keep improving it.
@@ -71,7 +70,7 @@ A: KMind Zen is built on a brand-new core, with a more polished look, a cleaner 
 
 Q: Do I need to pay again?
 
-A: No. If you previously purchased a KMind2 subscription, whether lifetime or annual, you can upgrade to KMind Zen for free. Global users can contact `kmind_app@outlook.com` by email to get an upgrade code for the SiYuan edition of KMind Zen.
+A: No. During the campaign period, which ends on 2026-05-20, users who previously purchased a KMind2 lifetime or annual subscription can upgrade to KMind Zen for free. For the SiYuan edition, follow the `KMind 思维导图` WeChat official account and send your old activation code, such as `kmind-xxxx`, to receive a KMind Zen lifetime or annual activation code. Global users can contact `kmind_app@outlook.com` by email for upgrade support.
 
 Q: If I only want KMind Zen, is there an early-bird discount?
 
