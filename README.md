@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.13.0 (2026-05-18)
+## What's new in 0.13.1 (2026-05-20)
 
-- Improved summary node localization and interaction details.
-- Added bulk node dragging: after multi-selecting nodes, drag any selected node to move them together.
-- Added automatic node centering when a map is first created.
+- Improved dark-mode editing for nodes and rich-text notes.
+- Improved dark-mode adaptation for rich-text toolbar dropdowns, link/cloze/slash/formula popovers, and context-menu scrollbars.
+- Improved dark-mode adaptation for relationship-line creation and format-painter cursor-following hints.
 
 ## Features
 

@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.13.1 - 2026-05-20
+
+### English
+
+- Improve dark-mode editing for nodes and rich-text notes.
+- Improve dark-mode adaptation for rich-text toolbar dropdowns, link/cloze/slash/formula popovers, and context-menu scrollbars.
+- Improve dark-mode adaptation for relationship-line creation and format-painter cursor-following hints.
+
+### 中文
+
+- 优化 dark 模式下的节点编辑和富文本备注编辑体验。
+- 优化富文本工具栏下拉、链接 / 挖空 / 斜杠 / 公式浮层和右键菜单滚动条的 dark 适配。
+- 优化关联线添加和格式刷的鼠标跟随提示的 dark 适配
+
 ## 0.13.0 - 2026-05-18
 
 ### English
