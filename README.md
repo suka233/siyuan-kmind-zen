@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.14.0 (2026-05-21)
+## What's new in 0.15.0 (2026-05-21)
 
-- Inserted images are compressed automatically by default, with an option to turn it off in plugin settings.
-- Node images can now be resized directly.
-- Node images can now be dragged to the top, bottom, left, or right side of a node.
+- Choose your canvas drag habit in global settings: Pan-first or Select-first.
+- Select-first lets you drag blank map space to marquee-select, and hold Space while dragging to pan.
+- Space is reserved for canvas navigation, so custom shortcuts will not interfere with panning.
 
 ## Features
 
@@ -27,6 +27,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Bidirectional links between nodes.
 - Node comments that are distinct from notes and can be reviewed in chronological order, making it easier to revisit the thinking process behind a map.
 - Refined drag-and-drop interactions, including bulk dragging for selected node groups.
+- Configurable canvas drag habits for users who prefer either blank-space panning or blank-space marquee selection.
 - Improved hyperlink support, including multiple links per node and custom icons for each link.
 - A more polished Zen mode and read-only experience, with the current state clearly visible and easy to exit from the top-right corner.
 - A mobile experience optimized as much as possible, with a dedicated UI for mobile devices. More feedback is still needed to keep improving it.

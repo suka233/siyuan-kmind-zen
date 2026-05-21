@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.15.0 - 2026-05-21
+
+### English
+
+- Add a canvas drag habit setting with Pan-first and Select-first modes.
+- In Select-first mode, drag blank map space to marquee-select and hold Space while dragging to pan.
+- Keep Space reserved for canvas navigation so custom shortcuts do not interfere with panning.
+
+### 中文
+
+- 新增画布拖拽习惯设置，可在平移优先和选择优先之间切换。
+- 选择优先模式下，导图空白处左键拖拽框选，按 Space + 左键拖拽平移画布。
+- Space 会保留给画布导航使用，避免自定义快捷键影响平移操作。
+
 ## 0.14.0 - 2026-05-21
 
 ### English
