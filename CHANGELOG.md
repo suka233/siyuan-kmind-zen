@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.14.0 - 2026-05-21
+
+### English
+
+- Add automatic image compression for inserted images in the plugin, enabled by default.
+- Add direct node-image resizing.
+- Add drag-and-drop node-image positioning across top, bottom, left, and right slots.
+
+### 中文
+
+- 插件端新增插入图片自动压缩配置，默认开启。
+- 节点图片新增直接拖动调整大小。
+- 节点图片支持拖拽到上、下、左、右方位。
+
 ## 0.13.1 - 2026-05-20
 
 ### English
