@@ -1,5 +1,23 @@
 # KMind Zen SiYuan Changelog
 
+## 0.16.0 - 2026-06-03
+
+### English
+
+- Add map template support for faster repeatable mind map creation.
+- Add theme and template preselection when creating document-tree mind maps.
+- Add global defaults for map creation and one-click conversion workflows, so they can start from your preferred default map/template.
+- Add in-map interactive guidance from the bottom-right help button: `?` -> `Interactive guide`.
+- Save reusable templates from the first button in the left floating toolbar: `Save template`.
+
+### 中文
+
+- 新增导图模板功能，便于复用固定结构快速创建导图。
+- 新增创建文档树导图的时候预选主题 & 模板的功能。
+- 新增全局配置，可配置创建导图、一键转换导图等流程使用的默认导图 / 模板。
+- 新增导图内引导交互，入口：导图内部右下角悬浮工具栏的问号按钮 -> 交互式引导。
+- 模板保存入口：导图内部左侧悬浮工具栏第一个按钮 -> 保存模板。
+
 ## 0.15.0 - 2026-05-21
 
 ### English

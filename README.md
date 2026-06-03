@@ -6,11 +6,13 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.15.0 (2026-05-21)
+## What's new in 0.16.0 (2026-06-03)
 
-- Choose your canvas drag habit in global settings: Pan-first or Select-first.
-- Select-first lets you drag blank map space to marquee-select, and hold Space while dragging to pan.
-- Space is reserved for canvas navigation, so custom shortcuts will not interfere with panning.
+- Add map template support for faster repeatable mind map creation.
+- Add theme and template preselection when creating document-tree mind maps.
+- Add global defaults for map creation and one-click conversion workflows, so they can start from your preferred default map/template.
+- Add in-map interactive guidance from the bottom-right help button: `?` -> `Interactive guide`.
+- Save reusable templates from the first button in the left floating toolbar: `Save template`.
 
 ## Features
 
