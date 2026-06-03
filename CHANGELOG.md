@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.17.0 - 2026-06-03
+
+### English
+
+- Improve the Dock maps panel so it feels closer to a native SiYuan dock, including a real panel minimize button.
+- Replace Dock text actions with accessible SiYuan icon buttons for new, refresh, copy link, rename, and delete.
+- Keep row actions compact on desktop with hover and keyboard-focus reveal, while keeping them always visible on mobile and coarse-pointer devices.
+- Let the Dock panel inherit SiYuan's own background for better theme compatibility.
+
+### 中文
+
+- 优化 Dock 导图面板，使其更接近思源原生 Dock 体验，并补齐真正收起面板的缩小按钮。
+- 将 Dock 顶部和行内文字操作改为可访问的思源 icon button，覆盖新建、刷新、复制链接、重命名和删除。
+- 桌面端行内操作在 hover / 键盘 focus 时显示，移动端和粗指针设备常显。
+- Dock 面板背景继承思源宿主背景，适配各种主题。
+
 ## 0.16.0 - 2026-06-03
 
 ### English
