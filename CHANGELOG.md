@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.18.0 - 2026-06-11
+
+### English
+
+- Add a global block map preview clarity setting for the PNG preview shown inside SiYuan documents.
+- Keep the default at Small (1x), with optional Clear (2x), HD (3x), and Ultra (4x) preview generation for users who want sharper block map previews.
+- Warn when choosing higher clarity that browser canvas limits may cause preview generation to fail on large maps; this only affects the preview image and does not affect saving the editable mind map source.
+
+### 中文
+
+- 新增块导图 PNG 预览图清晰度全局设置，可调整思源正文中块导图图片预览的清晰度。
+- 默认仍保持小图 (1x)，也可按需选择清晰 (2x)、高清 (3x) 或超清 (4x)。
+- 选择更高清晰度时会提示浏览器画布限制风险；如果大导图生成预览图失败，只影响预览图生成，不影响可编辑导图源数据保存。
+
 ## 0.17.1 - 2026-06-11
 
 ### English

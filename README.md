@@ -6,9 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.17.1 (2026-06-11)
+## What's new in 0.18.0 (2026-06-11)
 
-- Fix an issue where editing a block map did not refresh the document preview after external image organizers moved the block map preview image into an `assets` subfolder.
+- Add a global block map PNG preview clarity setting. The default remains Small (1x).
+- Choose Clear (2x), HD (3x), or Ultra (4x) in global settings when you want sharper block map previews inside SiYuan documents.
+- Higher clarity shows a browser canvas limit warning. If preview generation fails on a large map, only the preview image is affected; the editable mind map source still saves normally.
 
 ## Features
 
@@ -38,7 +40,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Turn ordinary SiYuan documents into map views, either as a read-only full block tree preview or as a heading outline organizer, then create an editable child mind map from the result.
 - Use MOC document-tree maps to view a SiYuan document tree as a mind map and write organizing actions such as create, rename, move, reorder, and delete back to SiYuan.
 - Embed read-only mirror blocks in normal SiYuan documents by copying a whole map or a selected node from KMind Zen and pasting it into the editor.
-- Insert block maps into normal SiYuan documents from the slash menu. The note shows a native image preview, and the image action button opens the map for editing.
+- Insert block maps into normal SiYuan documents from the slash menu. The note shows a native image preview, the image action button opens the map for editing, and the preview clarity can be adjusted in global settings.
 - Copy PDF annotations from SiYuan's PDF reader and paste them into a map as clickable PDF links.
 - Drag documents from the SiYuan document tree into a map to create document cards. Document cards are special nodes that still support child nodes, relationship lines, and other map operations. They default to preview mode, where preview content refreshes at a lower frequency for performance. You can switch to live mode at any time.
 - Drag SiYuan blocks directly into a map to create block cards. Block cards are also special nodes that can have child nodes, relationship lines, and more.
