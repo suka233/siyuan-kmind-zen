@@ -1,5 +1,15 @@
 # KMind Zen SiYuan Changelog
 
+## 0.17.1 - 2026-06-11
+
+### English
+
+- Fix an issue where editing a block map did not refresh the document preview after external image organizers moved the block map preview image into an `assets` subfolder.
+
+### 中文
+
+- 修复使用外部图片整理工具将块导图预览图移动到 `assets` 子目录后，编辑块导图但正文预览不刷新的问题。
+
 ## 0.17.0 - 2026-06-03
 
 ### English
