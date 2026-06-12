@@ -6,11 +6,10 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.18.0 (2026-06-11)
+## What's new in 0.19.0 (2026-06-12)
 
-- Add a global block map PNG preview clarity setting. The default remains Small (1x).
-- Choose Clear (2x), HD (3x), or Ultra (4x) in global settings when you want sharper block map previews inside SiYuan documents.
-- Higher clarity shows a browser canvas limit warning. If preview generation fails on a large map, only the preview image is affected; the editable mind map source still saves normally.
+- Right-click a node or blank canvas to expand the target to 1-6 levels.
+- Quickly expand or collapse a node subtree, or collapse and reopen the current map from the canvas menu.
 
 ## Features
 
@@ -27,6 +26,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Bidirectional links between nodes.
 - Node comments that are distinct from notes and can be reviewed in chronological order, making it easier to revisit the thinking process behind a map.
 - Refined drag-and-drop interactions, including bulk dragging for selected node groups.
+- Right-click expansion and collapse controls for quickly focusing large maps.
 - Configurable canvas drag habits for users who prefer either blank-space panning or blank-space marquee selection.
 - Improved hyperlink support, including multiple links per node and custom icons for each link.
 - A more polished Zen mode and read-only experience, with the current state clearly visible and easy to exit from the top-right corner.

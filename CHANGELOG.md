@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.19.0 - 2026-06-12
+
+### English
+
+- Add right-click actions to expand a node or the current map to 1-6 levels.
+- Add quick expand/collapse actions for node subtrees and the current map.
+- Keep the current-map menu switching between collapse and expand after the map is collapsed.
+
+### 中文
+
+- 新增右键按层级展开，可将节点或当前导图展开到 1-6 层。
+- 新增节点子树和当前导图的快速展开 / 收起入口。
+- 当前导图收起后，右键菜单会自动切换为展开当前导图。
+
 ## 0.18.0 - 2026-06-11
 
 ### English
