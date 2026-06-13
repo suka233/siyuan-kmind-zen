@@ -6,10 +6,10 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.19.0 (2026-06-12)
+## What's new in 0.21.0 (2026-06-14)
 
-- Right-click a node or blank canvas to expand the target to 1-6 levels.
-- Quickly expand or collapse a node subtree, or collapse and reopen the current map from the canvas menu.
+- The node relationship line editor now behaves better and keeps its editing controls out of the way.
+- Relationship lines now support three route types: straight, orthogonal, and rounded orthogonal.
 
 ## Features
 
@@ -18,7 +18,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
 - Polished PNG export and copy-as-image styles for cleaner sharing screenshots.
-- Advanced relationship line editing, including dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
+- Advanced relationship line editing, including straight, orthogonal, and rounded orthogonal routes, smarter editor avoidance, dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
 - Unlimited summary nesting, so summaries can contain their own summaries at any depth.
 - Flexible cloze support for both nodes and notes, designed for memorization and review.
 - An improved formula editor that can be opened quickly from the slash menu.

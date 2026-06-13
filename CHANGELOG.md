@@ -1,5 +1,29 @@
 # KMind Zen SiYuan Changelog
 
+## 0.21.0 - 2026-06-14
+
+### English
+
+- Improve the node relationship line editor and smart avoidance behavior.
+- Add three relationship line types: straight, orthogonal, and rounded orthogonal.
+
+### 中文
+
+- 优化 节点关联线 编辑器，优化智能避让功能。
+- 新增三种关联线类型：直线，正交连线，圆角正交连线。
+
+## 0.20.0 - 2026-06-12
+
+### English
+
+- Add node sub-documents for document-tree maps. Use the node context menu or `Ctrl/Cmd+Alt+Shift+D` to create a SiYuan child document and open it on the right.
+- Fix the Todo context-menu shortcut hint.
+
+### 中文
+
+- 文档树导图新增节点子文档，可通过节点右键或 `Ctrl/Cmd+Alt+Shift+D` 创建思源子文档，并自动在右侧打开。
+- 修复待办右键菜单快捷键提示。
+
 ## 0.19.0 - 2026-06-12
 
 ### English
