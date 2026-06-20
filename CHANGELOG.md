@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.22.0 - 2026-06-20
+
+### English
+
+- Add Outline and Split modes alongside the map view.
+- Edit the same mind map as a continuous outline while keeping selection, rich text, summaries, icons, and shortcuts synchronized with the map.
+- Drag nodes between the map and outline in Split mode, including outline-to-map and map-to-outline moves.
+
+### 中文
+
+- 新增大纲与分屏模式，可在导图、大纲、分屏之间切换。
+- 同一份导图可在连续大纲中编辑，选中、富文本、概要、图标和快捷键与导图保持同步。
+- 分屏模式支持导图节点与大纲双向拖拽，可从大纲拖到导图，也可从导图拖回大纲。
+
 ## 0.21.0 - 2026-06-14
 
 ### English
