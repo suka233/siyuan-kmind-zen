@@ -1,5 +1,17 @@
 # KMind Zen SiYuan Changelog
 
+## 0.23.0 - 2026-06-22
+
+### English
+
+- Add node width resize handles so node content width can be adjusted directly on the canvas.
+- Improve edge-case node width measurement to prevent node content from being clipped in dense text, formula, inline code, and export scenarios.
+
+### 中文
+
+- 新增节点宽度拖拽手柄，可在画布中直接调整节点内容宽度。
+- 优化极端内容下的节点宽度测量，减少密集文本、公式、inline code 和导出场景中的节点内容裁剪问题。
+
 ## 0.22.0 - 2026-06-20
 
 ### English

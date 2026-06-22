@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.22.0 (2026-06-20)
+## What's new in 0.23.0 (2026-06-22)
 
-- Outline and Split modes are now available next to the map view.
-- You can edit the same mind map as a continuous outline, with selection and rich content synchronized with the map.
-- Split mode supports dragging nodes both ways between the map and outline.
+- Node width resize handles are now available on the canvas.
+- You can adjust a node's content width directly when a node needs more or less room.
+- Edge-case width measurement is improved so dense text, formulas, inline code, and exported maps are less likely to clip node content.
 
 ## Features
 
@@ -19,6 +19,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
 - Polished PNG export and copy-as-image styles for cleaner sharing screenshots.
+- Direct node width resizing from the canvas.
 - Outline and Split modes for editing the same mind map as both a spatial map and a continuous outline.
 - Split mode can move nodes in both directions between the map and outline.
 - Advanced relationship line editing, including straight, orthogonal, and rounded orthogonal routes, smarter editor avoidance, dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
