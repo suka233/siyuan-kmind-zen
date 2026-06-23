@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.24.0 - 2026-06-23
+
+### English
+
+- Rework node editing into true in-place editing, keeping the editing area inside the node body for a smoother and more stable experience.
+- Improve editing interaction and performance, especially around first-line input, multi-line growth, zoom, and mixed text sizes.
+- Fix edge cases where exported PNG or SVG files could clip node body text.
+- Disable spell checking in node body editing, notes, and Outline mode to reduce browser or host writing-assistant interference.
+
+### 中文
+
+- 重构节点编辑体验，支持真正的原地编辑，编辑区保持在节点正文内部，交互更稳定顺滑。
+- 优化首行输入、多行增长、缩放和混合字号等场景下的编辑交互与性能。
+- 修复极端情况下导出 PNG 或 SVG 时节点正文被截断的问题。
+- 关闭节点正文、备注和大纲编辑中的拼写检查，减少浏览器或宿主写作辅助对导图编辑的干扰。
+
 ## 0.23.0 - 2026-06-22
 
 ### English

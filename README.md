@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.23.0 (2026-06-22)
+## What's new in 0.24.0 (2026-06-23)
 
-- Node width resize handles are now available on the canvas.
-- You can adjust a node's content width directly when a node needs more or less room.
-- Edge-case width measurement is improved so dense text, formulas, inline code, and exported maps are less likely to clip node content.
+- Node editing is now true in-place editing inside the node body, with smoother first-line input, multi-line growth, zoom, and mixed text-size behavior.
+- SVG and PNG export are more robust in edge cases where node body text could previously be clipped.
+- Spell checking is disabled for node body editing, notes, and Outline mode to keep map editing predictable.
 
 ## Features
 
@@ -18,8 +18,9 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
-- Polished PNG export and copy-as-image styles for cleaner sharing screenshots.
+- Polished and more reliable SVG / PNG export and copy-as-image styles for cleaner sharing screenshots.
 - Direct node width resizing from the canvas.
+- True in-place node editing that keeps the editor inside the node body.
 - Outline and Split modes for editing the same mind map as both a spatial map and a continuous outline.
 - Split mode can move nodes in both directions between the map and outline.
 - Advanced relationship line editing, including straight, orthogonal, and rounded orthogonal routes, smarter editor avoidance, dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
