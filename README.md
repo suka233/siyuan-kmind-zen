@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.24.0 (2026-06-23)
+## What's new in 0.25.0 (2026-06-25)
 
-- Node editing is now true in-place editing inside the node body, with smoother first-line input, multi-line growth, zoom, and mixed text-size behavior.
-- SVG and PNG export are more robust in edge cases where node body text could previously be clipped.
-- Spell checking is disabled for node body editing, notes, and Outline mode to keep map editing predictable.
+- The plugin now shows an update dialog after upgrades, with a link to the official changelog for current and past releases.
+- The official changelog is available on the KMind website, grouped by Web App, SiYuan plugin, and Obsidian plugin.
+- The plugin no longer reserves `Ctrl/Cmd+N` by default, so SiYuan and system new-item shortcuts stay available.
 
 ## Features
 

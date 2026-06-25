@@ -1,5 +1,17 @@
 # KMind Zen SiYuan Changelog
 
+## 0.25.0 - 2026-06-25
+
+### English
+
+- Add the update dialog and official changelog so users can view the current release and past updates.
+- Remove the plugin-side `Ctrl/Cmd+N` default shortcut to avoid overriding SiYuan or system new-item behavior.
+
+### 中文
+
+- 新增更新日志弹框与官网更新日志，支持查看本次更新内容和以往更新。
+- 移除插件端 `Ctrl/Cmd+N` 默认快捷键，避免覆盖思源或系统的新建行为。
+
 ## 0.24.0 - 2026-06-23
 
 ### English
