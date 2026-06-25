@@ -6,11 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.25.0 (2026-06-25)
+## What's new in 0.26.0 (2026-06-25)
 
-- The plugin now shows an update dialog after upgrades, with a link to the official changelog for current and past releases.
-- The official changelog is available on the KMind website, grouped by Web App, SiYuan plugin, and Obsidian plugin.
-- The plugin no longer reserves `Ctrl/Cmd+N` by default, so SiYuan and system new-item shortcuts stay available.
+- Dropping SiYuan documents or blocks on blank canvas creates cards, while dropping onto existing nodes adds SiYuan links. Hold `Alt/Option` while dropping onto a node to create document-card or block-card child nodes.
+- Copied `siyuan://blocks/<id>` URLs and Markdown SiYuan block links can now be pasted directly onto selected nodes as external links.
+- Select-first mode now supports right-button canvas panning, and MOC document-tree refreshes try to keep the current view and selected node.
 
 ## Features
 
@@ -47,8 +47,8 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Embed read-only mirror blocks in normal SiYuan documents by copying a whole map or a selected node from KMind Zen and pasting it into the editor.
 - Insert block maps into normal SiYuan documents from the slash menu. The note shows a native image preview, the image action button opens the map for editing, and the preview clarity can be adjusted in global settings.
 - Copy PDF annotations from SiYuan's PDF reader and paste them into a map as clickable PDF links.
-- Drag documents from the SiYuan document tree into a map to create document cards. Document cards are special nodes that still support child nodes, relationship lines, and other map operations. They default to preview mode, where preview content refreshes at a lower frequency for performance. You can switch to live mode at any time.
-- Drag SiYuan blocks directly into a map to create block cards. Block cards are also special nodes that can have child nodes, relationship lines, and more.
+- Drag documents from the SiYuan document tree onto blank canvas to create document cards, or onto existing nodes to quickly add SiYuan document links. Hold `Alt/Option` while dropping onto a node to create a document-card child node. Document cards are special nodes that still support child nodes, relationship lines, and other map operations. They default to preview mode, where preview content refreshes at a lower frequency for performance. You can switch to live mode at any time.
+- Drag SiYuan blocks onto blank canvas to create block cards, or onto existing nodes to quickly add SiYuan block links. Hold `Alt/Option` while dropping onto a node to create a block-card child node. Block cards are also special nodes that can have child nodes, relationship lines, and more.
 - Create mind maps from the SiYuan dock.
 - Thanks to SiYuan's block-based architecture, both entire mind maps and individual map nodes can be copied as permanent links. You can paste those links into external apps, and clicking them will open SiYuan, load the target map, and jump straight to the specific node.
 

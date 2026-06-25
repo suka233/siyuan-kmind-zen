@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.26.0 - 2026-06-25
+
+### English
+
+- Refine SiYuan drag-and-drop semantics: blank canvas creates document or block cards, existing nodes receive SiYuan links, and `Alt/Option` keeps the card-child path available.
+- Add smart paste for `siyuan://blocks/<id>` links so copied SiYuan block links can be appended directly to selected map nodes.
+- Add right-button canvas panning in Select-first mode while keeping middle-button panning available.
+- Improve MOC document-tree refresh behavior so rename, move, delete, and external refreshes keep the current view and selected node when possible.
+
+### 中文
+
+- 优化思源拖拽语义：拖到空白创建文档卡或块卡，拖到已有节点添加思源链接，`Alt/Option` 仍保留创建卡片子节点的能力。
+- 新增 `siyuan://blocks/<id>` 智能粘贴，复制思源块链接后可直接粘贴到选中节点追加外链。
+- 选择优先模式下新增右键拖动画布，并保持中键拖动画布可用。
+- 优化 MOC 文档树刷新体验，重命名、移动、删除和外部刷新后尽量保留当前视角和选中节点。
+
 ## 0.25.0 - 2026-06-25
 
 ### English
