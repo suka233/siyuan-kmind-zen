@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.27.0 - 2026-06-26
+
+### English
+
+- Allow KMind mindmap documents to be dragged into a map as SiYuan document links: blank canvas creates a regular link node, while regular nodes receive external links.
+- Add SiYuan notifications after successful KMind mindmap document drops.
+- Improve SiYuan block-link paste so blank-canvas link nodes and empty target nodes use readable SiYuan block text while existing node text is preserved.
+
+### 中文
+
+- 允许把 KMind 导图文档拖入导图并作为思源文档外链引用：空白画布创建普通链接节点，普通节点追加外链。
+- KMind 导图文档拖入成功后新增思源通知交互。
+- 优化思源块链接粘贴，空白画布创建的链接节点和空白正文节点会使用可读的思源块文本，同时保留已有节点正文。
+
 ## 0.26.0 - 2026-06-25
 
 ### English
