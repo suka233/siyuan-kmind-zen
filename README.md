@@ -6,11 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.27.0 (2026-06-26)
+## What's new in 0.28.0 (2026-06-27)
 
-- KMind mindmap documents dragged from the SiYuan document tree can now be inserted as SiYuan document links. Dropping on blank canvas creates a regular link node, while dropping onto a regular node appends a link.
-- KMind mindmap document drops now show SiYuan notifications.
-- Pasted `siyuan://blocks/<id>` URLs and Markdown SiYuan block links now use readable SiYuan block text for blank-canvas link nodes and empty target nodes, while preserving existing node text.
+- Add Add Parent to the node context menu and shortcut settings.
+- Add Move Node Up and Move Node Down with `Alt/Option+Up` and `Alt/Option+Down`.
+- Add Collapse and Expand shortcuts: `Alt/Option+Left` and `Alt/Option+Right`.
+- Update the core version.
 
 ## Features
 

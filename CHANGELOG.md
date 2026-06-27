@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.28.0 - 2026-06-27
+
+### English
+
+- Add Add Parent to the node context menu and shortcut settings.
+- Add Move Node Up and Move Node Down with `Alt/Option+Up` and `Alt/Option+Down`.
+- Add Collapse and Expand shortcuts: `Alt/Option+Left` and `Alt/Option+Right`.
+- Update the core version.
+
+### 中文
+
+- 新增节点右键菜单「添加父节点」与对应快捷键配置。
+- 新增上移节点、下移节点功能，快捷键为 `Alt/Option+Up`、`Alt/Option+Down`。
+- 新增收缩、展开节点快捷键：`Alt/Option+Left`、`Alt/Option+Right`。
+- 更新内核版本。
+
 ## 0.27.0 - 2026-06-26
 
 ### English
