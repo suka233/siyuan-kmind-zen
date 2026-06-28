@@ -6,12 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.28.0 (2026-06-27)
+## What's new in 0.29.0 (2026-06-28)
 
-- Add Add Parent to the node context menu and shortcut settings.
-- Add Move Node Up and Move Node Down with `Alt/Option+Up` and `Alt/Option+Down`.
-- Add Collapse and Expand shortcuts: `Alt/Option+Left` and `Alt/Option+Right`.
-- Update the core version.
+- Add Tree Up and Tree Down layouts.
+- Add the minimal Ink Branch theme.
+- Add the Branch Line edge style, now also available in Theme Designer.
+- Update the core layout engine.
 
 ## Features
 

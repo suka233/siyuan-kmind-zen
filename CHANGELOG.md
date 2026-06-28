@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.29.0 - 2026-06-28
+
+### English
+
+- Add Tree Up and Tree Down layouts.
+- Add the minimal Ink Branch theme.
+- Add the Branch Line edge style, now also available in Theme Designer.
+- Update the core layout engine.
+
+### 中文
+
+- 新增布局：向上树状图 & 向下树状图。
+- 新增简洁主题：墨线枝干。
+- 新增连线风格：枝干线，该风格在主题设计器中也能用啦～
+- 更新内核布局引擎。
+
 ## 0.28.0 - 2026-06-27
 
 ### English
