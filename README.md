@@ -6,12 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.29.0 (2026-06-28)
+## What's new in 0.30.0 (2026-06-29)
 
-- Add Tree Up and Tree Down layouts.
-- Add the minimal Ink Branch theme.
-- Add the Branch Line edge style, now also available in Theme Designer.
-- Update the core layout engine.
+- Added Wheel behavior under Settings -> Canvas interaction.
+- Added direct wheel zoom, wheel panning with `Ctrl/Cmd` wheel zoom, and disabled wheel zoom modes.
+- In wheel panning mode, vertical wheel pans up/down, while horizontal wheel or `Shift + vertical wheel` pans left/right.
+- The default wheel behavior remains direct zoom.
 
 ## Features
 
@@ -33,7 +33,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Node comments that are distinct from notes and can be reviewed in chronological order, making it easier to revisit the thinking process behind a map.
 - Refined drag-and-drop interactions, including bulk dragging for selected node groups.
 - Right-click expansion and collapse controls for quickly focusing large maps.
-- Configurable canvas drag habits for users who prefer either blank-space panning or blank-space marquee selection.
+- Configurable canvas drag and wheel behavior for users who prefer blank-space panning, blank-space marquee selection, or `Ctrl/Cmd` wheel zoom.
 - Improved hyperlink support, including multiple links per node and custom icons for each link.
 - A more polished Zen mode and read-only experience, with the current state clearly visible and easy to exit from the top-right corner.
 - A mobile experience optimized as much as possible, with a dedicated UI for mobile devices. More feedback is still needed to keep improving it.

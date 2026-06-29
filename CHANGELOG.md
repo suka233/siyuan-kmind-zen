@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.30.0 - 2026-06-29
+
+### English
+
+- Add a Wheel behavior setting under Canvas interaction.
+- Support direct wheel zoom, wheel panning with `Ctrl/Cmd` wheel zoom, and disabled wheel zoom.
+- In wheel panning mode, vertical wheel pans up/down, horizontal wheel or `Shift + vertical wheel` pans left/right, and `Ctrl/Cmd + wheel` zooms.
+- Keep the default wheel behavior as direct zoom.
+
+### 中文
+
+- 在画布操作习惯中新增“滚轮行为”设置。
+- 支持直接缩放、滚轮平移并按 `Ctrl/Cmd` 缩放、关闭滚轮缩放三种模式。
+- 在滚轮平移模式下，纵向滚轮上下平移，横向滚轮或 `Shift + 纵向滚轮` 左右平移，`Ctrl/Cmd + 滚轮` 缩放。
+- 默认滚轮行为仍保持直接缩放。
+
 ## 0.29.0 - 2026-06-28
 
 ### English
