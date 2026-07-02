@@ -6,12 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.30.0 (2026-06-29)
+## What's new in 0.31.0 (2026-07-03)
 
-- Added Wheel behavior under Settings -> Canvas interaction.
-- Added direct wheel zoom, wheel panning with `Ctrl/Cmd` wheel zoom, and disabled wheel zoom modes.
-- In wheel panning mode, vertical wheel pans up/down, while horizontal wheel or `Shift + vertical wheel` pans left/right.
-- The default wheel behavior remains direct zoom.
+- Added node drag alignment guides.
+- Integrated with SiYuan Agent. SiYuan Agent can now create dock maps and operate open document-tree maps and dock maps, including continuing nodes, appending nodes, and inserting new node trees. Agent node deletion is not open yet and will be enabled after more testing. Please back up your maps before using Agent operations.
+- Updated the core version to prepare for upcoming whiteboard elements.
 
 ## Features
 
@@ -52,6 +51,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Drag KMind mindmap documents from the SiYuan document tree into a map as links: blank canvas creates a regular link node, while regular nodes receive SiYuan document links.
 - Drag SiYuan blocks onto blank canvas to create block cards, or onto existing nodes to quickly add SiYuan block links. Hold `Alt/Option` while dropping onto a node to create a block-card child node. Block cards are also special nodes that can have child nodes, relationship lines, and more.
 - Paste copied `siyuan://blocks/<id>` URLs or Markdown SiYuan block links into a map. Blank-canvas paste creates readable link nodes, and pasting onto an empty node fills its text from the referenced SiYuan block while preserving existing text on non-empty nodes.
+- SiYuan Agent can create dock maps and operate open document-tree maps and dock maps.
 - Create mind maps from the SiYuan dock.
 - Thanks to SiYuan's block-based architecture, both entire mind maps and individual map nodes can be copied as permanent links. You can paste those links into external apps, and clicking them will open SiYuan, load the target map, and jump straight to the specific node.
 

@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.31.0 - 2026-07-03
+
+### English
+
+- Add node drag alignment guides.
+- Integrate with SiYuan Agent. SiYuan Agent can now create dock maps and operate open document-tree maps and dock maps, including continuing nodes, appending nodes, and inserting new node trees. Agent node deletion is not open yet and will be enabled after more testing. Please back up your maps before using Agent operations.
+- Update the core version to prepare for upcoming whiteboard elements.
+
+### 中文
+
+- 新增节点拖拽对齐辅助线。
+- 对接思源 Agent，现在思源 Agent 能够直接创建 Dock 栏导图，直接操作打开的文档树导图和 Dock 栏导图啦，支持续写节点、追加节点、插入新的节点树等操作。当前还未开放 Agent 删除节点功能，会在之后测试完善后开放；Agent 操作导图请注意备份哦。
+- 升级内核版本，为即将到来的白板元素做准备。
+
 ## 0.30.0 - 2026-06-29
 
 ### English
