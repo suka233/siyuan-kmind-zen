@@ -1,5 +1,27 @@
 # KMind Zen SiYuan Changelog
 
+## 0.32.0 - 2026-07-08
+
+### English
+
+- Add the brace edge style for all current layouts.
+- Add `.md`, `.opml`, `.txt`, and `.mm` (FreeMind) file import support.
+- Add `.md`, `.opml`, `.mm`, and `.xmind` file export support.
+- Remove the not-yet-adapted lecture export options.
+- Fix partial feature failures in the new plugin (0.31.0+) on older SiYuan versions (3.6.5 and below).
+- Update the core version to prepare for upcoming whiteboard elements.
+- Improve core performance.
+
+### 中文
+
+- 新增大括号连线风格，当前的布局方式均可用。
+- 新增 `.md`、`.opml`、`.txt`、`.mm` (FreeMind) 文件格式导入支持。
+- 新增 `.md`、`.opml`、`.mm`、`.xmind` 文件格式导出支持。
+- 移除暂未完全适配的知识讲义系列导出支持项。
+- 修复新插件 (0.31.0+) 在老思源版本（3.6.5 及以下）部分功能失效的问题。
+- 升级内核版本，为即将到来的白板元素做准备。
+- 优化内核性能。
+
 ## 0.31.0 - 2026-07-03
 
 ### English

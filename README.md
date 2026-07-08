@@ -6,11 +6,15 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.31.0 (2026-07-03)
+## What's new in 0.32.0 (2026-07-08)
 
-- Added node drag alignment guides.
-- Integrated with SiYuan Agent. SiYuan Agent can now create dock maps and operate open document-tree maps and dock maps, including continuing nodes, appending nodes, and inserting new node trees. Agent node deletion is not open yet and will be enabled after more testing. Please back up your maps before using Agent operations.
+- Added the brace edge style for all current layouts.
+- Added `.md`, `.opml`, `.txt`, and `.mm` (FreeMind) file import support.
+- Added `.md`, `.opml`, `.mm`, and `.xmind` file export support.
+- Removed the not-yet-adapted lecture export options.
+- Fixed partial feature failures in the new plugin (0.31.0+) on older SiYuan versions (3.6.5 and below).
 - Updated the core version to prepare for upcoming whiteboard elements.
+- Improved core performance.
 
 ## Features
 
@@ -18,12 +22,12 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
-- Polished and more reliable SVG / PNG export and copy-as-image styles for cleaner sharing screenshots.
+- Polished and more reliable import/export, including `.md` / `.opml` import and export, `.txt` import, `.mm` import/export, `.xmind` export, SVG / PNG export, and copy-as-image styles.
 - Direct node width resizing from the canvas.
 - True in-place node editing that keeps the editor inside the node body.
 - Outline and Split modes for editing the same mind map as both a spatial map and a continuous outline.
 - Split mode can move nodes in both directions between the map and outline.
-- Advanced relationship line editing, including straight, orthogonal, and rounded orthogonal routes, smarter editor avoidance, dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
+- Advanced relationship line editing, including straight, orthogonal, rounded orthogonal, and brace styles, smarter editor avoidance, dashed and dotted styles, color settings, project-level defaults, and summary relationship lines.
 - Unlimited summary nesting, so summaries can contain their own summaries at any depth.
 - Flexible cloze support for both nodes and notes, designed for memorization and review.
 - An improved formula editor that can be opened quickly from the slash menu.
@@ -65,7 +69,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 
 ## Limitations
 
-- KMind Zen does not yet include every KMind2 feature. The main gaps right now are broader import/export options and a few advanced legacy workflows. These capabilities will be redesigned in the KMind Zen style and released gradually.
+- KMind Zen does not yet include every KMind2 feature. The remaining gaps are a few advanced legacy workflows. These capabilities will be redesigned in the KMind Zen style and released gradually.
 - Document-tree mind maps, SiYuan doc-to-map, MOC, and new mirror-block creation require Pro. Existing mirror blocks remain readable and refreshable. Dock maps remain free.
 - Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
