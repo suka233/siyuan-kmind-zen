@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.33.0 - 2026-07-13
+
+### English
+
+- Improve import handling with stricter filtering of invalid rich-text content.
+- Improve import speed for large projects and preview refresh performance.
+- Fix invalid node content preventing the outline from initializing.
+- Fix the outline becoming unresponsive after expanding nodes.
+
+### 中文
+
+- 优化导入，更严格地过滤非法富文本内容。
+- 优化大项目导入速度与预览图刷新性能。
+- 修复非法节点内容导致大纲初始化失败的问题。
+- 修复展开节点后大纲卡住的问题。
+
 ## 0.32.0 - 2026-07-08
 
 ### English

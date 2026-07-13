@@ -6,15 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.32.0 (2026-07-08)
+## What's new in 0.33.0 (2026-07-13)
 
-- Added the brace edge style for all current layouts.
-- Added `.md`, `.opml`, `.txt`, and `.mm` (FreeMind) file import support.
-- Added `.md`, `.opml`, `.mm`, and `.xmind` file export support.
-- Removed the not-yet-adapted lecture export options.
-- Fixed partial feature failures in the new plugin (0.31.0+) on older SiYuan versions (3.6.5 and below).
-- Updated the core version to prepare for upcoming whiteboard elements.
-- Improved core performance.
+- Improved import handling with stricter filtering of invalid rich-text content.
+- Improved import speed for large projects and preview refresh performance.
+- Fixed invalid node content preventing the outline from initializing.
+- Fixed the outline becoming unresponsive after expanding nodes.
 
 ## Features
 
