@@ -6,12 +6,16 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
 
-## What's new in 0.33.0 (2026-07-13)
+## What's new in 0.34.0 (2026-07-16)
 
-- Improved import handling with stricter filtering of invalid rich-text content.
-- Improved import speed for large projects and preview refresh performance.
-- Fixed invalid node content preventing the outline from initializing.
-- Fixed the outline becoming unresponsive after expanding nodes.
+- Add image paste support to node content and outline rows, with drag-to-resize controls.
+- Add image paste support to notes.
+- Add drag-to-resize support for the notes popover.
+- Add a global default density setting for newly created mind maps, with Compact, Default, and Spacious options under Settings → General → New mind map defaults.
+- Add a global opening-position setting for newly created SiYuan child documents and document-tree maps, with Current tab, Right split, and Bottom split options under Settings → General → New mind map defaults → General defaults.
+- Improve outline editing so pressing Enter on a root row creates a child node instead of another root node.
+- Keep the notes action buttons anchored to the bottom of the popover.
+- Fix the notes Save button having no effect when clicked.
 
 ## Features
 

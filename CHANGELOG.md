@@ -1,5 +1,29 @@
 # KMind Zen SiYuan Changelog
 
+## 0.34.0 - 2026-07-16
+
+### English
+
+- Add image paste support to node content and outline rows, with drag-to-resize controls.
+- Add image paste support to notes.
+- Add drag-to-resize support for the notes popover.
+- Add a global default density setting for newly created mind maps, with Compact, Default, and Spacious options under Settings → General → New mind map defaults.
+- Add a global opening-position setting for newly created SiYuan child documents and document-tree maps, with Current tab, Right split, and Bottom split options under Settings → General → New mind map defaults → General defaults.
+- Improve outline editing so pressing Enter on a root row creates a child node instead of another root node.
+- Keep the notes action buttons anchored to the bottom of the popover.
+- Fix the notes Save button having no effect when clicked.
+
+### 中文
+
+- 新增节点正文与大纲行图片粘贴功能，支持拖拽调整图片大小。
+- 新增备注区图片粘贴功能。
+- 新增拖拽调节备注框大小。
+- 新增新建导图默认密度全局配置，可选择紧凑、默认、舒展；入口：设置 → 常规 → 新建导图默认值。
+- 新增创建文档后打开位置全局配置，用于控制创建思源子文档或文档树导图后的默认打开位置，可选择当前页、右侧、下方；入口：设置 → 常规 → 新建导图默认值 → 通用默认值。
+- 优化大纲输入体验，在根节点按下 Enter 后默认创建子节点，而非新根节点。
+- 优化备注悬浮窗布局，底部操作按钮始终贴底显示。
+- 修复点击备注保存按钮没有响应的问题。
+
 ## 0.33.0 - 2026-07-13
 
 ### English
