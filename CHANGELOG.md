@@ -1,5 +1,31 @@
 # KMind Zen SiYuan Changelog
 
+## 0.35.0 - 2026-08-11
+
+### English
+
+- Add syntax hints and common syntax options to the formula editor.
+- Add smart avoidance to the formula editor.
+- Improve the responsiveness and feel of formula editing. If it still feels off, please keep the feedback coming—thank you!
+- Improve formula syntax validation.
+- Improve outline performance.
+- Fix incorrect rendering of the not-equal sign in formulas.
+- Update and upgrade the core as whiteboard feature development nears completion.
+- Refactor the core for code quality and better performance.
+- The standalone KMind Zen desktop app is now available on the Mac App Store. Search for "KMind Zen" to download it; signing in with a Founders Pass automatically unlocks the lifetime edition.
+
+### 中文
+
+- 公式编辑器新增语法提示与常用语法选项。
+- 公式编辑器新增智能避让。
+- 优化公式编辑器手感；如果仍有手感问题，请继续反馈，多谢～～
+- 优化公式编辑语法检测。
+- 优化大纲性能。
+- 修复公式不等号渲染错误的问题。
+- 更新并升级内核版本，白板功能开发已接近尾声。
+- 内核质量性重构，优化性能。
+- KMind Zen 独立客户端现已上架 Mac App Store，欢迎搜索 "KMind Zen" 下载体验；使用创始者通行证登录后可自动解锁永久版。
+
 ## 0.34.0 - 2026-07-16
 
 ### English

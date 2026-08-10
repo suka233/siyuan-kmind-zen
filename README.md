@@ -4,22 +4,23 @@
 
 KMind Zen is a next-generation professional mind mapping tool that started in SiYuan and is now expanding into a broader ecosystem. Website: https://kmind.app
 
-Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, and an OpenClaw Skill. A standalone desktop app is also on the way.
+Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.34.0 (2026-07-16)
+## What's new in 0.35.0 (2026-08-11)
 
-- Add image paste support to node content and outline rows, with drag-to-resize controls.
-- Add image paste support to notes.
-- Add drag-to-resize support for the notes popover.
-- Add a global default density setting for newly created mind maps, with Compact, Default, and Spacious options under Settings → General → New mind map defaults.
-- Add a global opening-position setting for newly created SiYuan child documents and document-tree maps, with Current tab, Right split, and Bottom split options under Settings → General → New mind map defaults → General defaults.
-- Improve outline editing so pressing Enter on a root row creates a child node instead of another root node.
-- Keep the notes action buttons anchored to the bottom of the popover.
-- Fix the notes Save button having no effect when clicked.
+- Add syntax hints and common syntax options to the formula editor.
+- Add smart avoidance to the formula editor.
+- Improve the responsiveness and feel of formula editing. If it still feels off, please keep the feedback coming—thank you!
+- Improve formula syntax validation.
+- Improve outline performance.
+- Fix incorrect rendering of the not-equal sign in formulas.
+- Update and upgrade the core as whiteboard feature development nears completion.
+- Refactor the core for code quality and better performance.
+- The standalone KMind Zen desktop app is now available on the Mac App Store. Search for "KMind Zen" to download it; signing in with a Founders Pass automatically unlocks the lifetime edition.
 
 ## Features
 
-- Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the upcoming desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.
+- Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the standalone desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
