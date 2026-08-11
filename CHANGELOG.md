@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.37.0 - 2026-08-11
+
+### English
+
+- Add `[[` shortcuts for SiYuan document references in node and outline content.
+- Improve SiYuan document search ranking so exact and title matches appear before path-only matches.
+- Improve keyboard, mouse, empty-state, and rapid-input behavior for `/` and `[[` document search.
+- Fix parent documents sometimes missing from slash-menu search results when they contain many child documents.
+
+### 中文
+
+- 新增思源文档 `[[` 快捷引用，支持在节点正文与大纲正文中搜索并插入文档链接。
+- 优化思源文档搜索排序，精确标题和标题匹配优先于文档路径匹配。
+- 完善 `/` 与 `[[` 文档搜索的键盘、鼠标、空结果和快速输入交互。
+- 修复母文档拥有大量子文档时，可能无法在斜杠菜单搜索结果中出现的问题。
+
 ## 0.36.0 - 2026-08-11
 
 ### English
