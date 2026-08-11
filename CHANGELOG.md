@@ -1,5 +1,25 @@
 # KMind Zen SiYuan Changelog
 
+## 0.36.0 - 2026-08-11
+
+### English
+
+- Upgrade KaTeX to version 0.18.4.
+- Add comprehensive formula autocomplete with around 1,022 completion candidates.
+- Add case-sensitive formula completion and recognition for `\Gamma`, `\gamma`, and other commands and environments.
+- Improve Tab navigation for multi-argument formulas, including Shift+Tab to return to the previous argument.
+- Disable browser spell checking in formula inputs to prevent irrelevant spelling underlines on LaTeX commands.
+- Improve visual feedback when dragging outline rows onto mind map nodes.
+
+### 中文
+
+- 升级 KaTeX 版本至 0.18.4。
+- 新增更完善的公式自动补全，提供约 1022 个补全候选。
+- 完善大小写敏感的公式补全与识别，例如 `\Gamma`、`\gamma`，以及其它命令和环境。
+- 优化多参数公式的 Tab 导航，并支持使用 Shift+Tab 返回上一个参数。
+- 关闭公式输入框的浏览器拼写检查，避免 LaTeX 命令出现无关的拼写波浪线。
+- 优化大纲行拖拽到导图节点时的视觉交互效果。
+
 ## 0.35.0 - 2026-08-11
 
 ### English

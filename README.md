@@ -6,17 +6,14 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.35.0 (2026-08-11)
+## What's new in 0.36.0 (2026-08-11)
 
-- Add syntax hints and common syntax options to the formula editor.
-- Add smart avoidance to the formula editor.
-- Improve the responsiveness and feel of formula editing. If it still feels off, please keep the feedback coming—thank you!
-- Improve formula syntax validation.
-- Improve outline performance.
-- Fix incorrect rendering of the not-equal sign in formulas.
-- Update and upgrade the core as whiteboard feature development nears completion.
-- Refactor the core for code quality and better performance.
-- The standalone KMind Zen desktop app is now available on the Mac App Store. Search for "KMind Zen" to download it; signing in with a Founders Pass automatically unlocks the lifetime edition.
+- Upgrade KaTeX to version 0.18.4.
+- Add comprehensive formula autocomplete with around 1,022 completion candidates.
+- Add case-sensitive formula completion and recognition for `\Gamma`, `\gamma`, and other commands and environments.
+- Improve Tab navigation for multi-argument formulas, including Shift+Tab to return to the previous argument.
+- Disable browser spell checking in formula inputs to prevent irrelevant spelling underlines on LaTeX commands.
+- Improve visual feedback when dragging outline rows onto mind map nodes.
 
 ## Features
 
