@@ -1,5 +1,27 @@
 # KMind Zen SiYuan Changelog
 
+## 0.38.0 - 2026-08-12
+
+### English
+
+- Add cross-map and cross-host node copy and paste for single nodes, multi-selections, and complete node trees.
+- Transfer node images, images in content and notes, embedded assets, and image icons into the target map's asset storage.
+- Add failure-safe node cut with precise Undo; source nodes are removed only after a complete clipboard write.
+- Provide readable rich text and plain text when copying to regular web pages and text editors.
+- Validate and atomically import copied resources without leaving partial nodes or orphaned images after failure.
+- Move desktop copy, cut, and save feedback into the top-right Zen/read-only mode capsule.
+- Fix images disappearing after copying nodes to another SiYuan map and the resulting target-map save failures.
+
+### 中文
+
+- 新增跨导图、跨端节点复制粘贴，支持单节点、多选节点及完整节点树。
+- 节点图片、正文图片、备注图片、嵌入资源和图片图标会随节点写入目标导图资源存储。
+- 新增失败安全且可精确撤销的节点剪切；只有完整写入剪贴板后才会删除源节点。
+- 复制到普通网页和文本编辑器时提供可读的富文本或纯文本内容。
+- 粘贴前完整校验并原子导入资源，失败后不留下不完整节点或孤立图片。
+- 将桌面复制、剪切和保存反馈整合到右上角禅模式/只读模式胶囊。
+- 修复带图片的节点复制到另一张思源导图后图片丢失，并可能导致目标导图保存失败的问题。
+
 ## 0.37.0 - 2026-08-11
 
 ### English

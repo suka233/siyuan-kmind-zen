@@ -6,17 +6,19 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.37.0 (2026-08-11)
+## What's new in 0.38.0 (2026-08-12)
 
-- Add `[[` shortcuts for SiYuan document references in node and outline content.
-- Improve SiYuan document search ranking so exact and title matches appear before path-only matches.
-- Improve keyboard, mouse, empty-state, and rapid-input behavior for `/` and `[[` document search.
-- Fix parent documents sometimes missing from slash-menu search results when they contain many child documents.
+- Copy and paste single nodes, multi-selections, and complete node trees across maps and supported KMind Zen hosts.
+- Transfer node images, images in content and notes, embedded assets, and image icons into the target map's asset storage.
+- Cut nodes safely with precise Undo; source nodes remain unchanged if the complete clipboard write fails.
+- Fix images disappearing after copying nodes to another SiYuan map and the resulting target-map save failures.
+- Show lightweight copy, cut, and save feedback in the top-right Zen/read-only mode capsule.
 
 ## Features
 
 - Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the standalone desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.
 - A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
+- Portable node copy and cut across maps and supported KMind Zen hosts, including referenced images and other node assets.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
 - Polished and more reliable import/export, including `.md` / `.opml` import and export, `.txt` import, `.mm` import/export, `.xmind` export, SVG / PNG export, and copy-as-image styles.
