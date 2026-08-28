@@ -1,5 +1,21 @@
 # KMind Zen SiYuan Changelog
 
+## 0.39.0 - 2026-08-28
+
+### English
+
+- Improve the visual presentation of save status and related interface feedback.
+- Fix an issue where the canvas could become blank after expanding or collapsing nodes in a read-only map.
+- Upgrade the core and continue performance improvements.
+- Compatibility notice: This release upgrades the core in preparation for upcoming features. The file version of an existing map will be upgraded automatically when it is first edited and saved. After a map has been saved by this version, do not continue editing or saving it with an older plugin, as this may cause map save failures or other compatibility issues.
+
+### 中文
+
+- 优化保存状态等界面的视觉效果。
+- 修复只读导图中展开或收缩节点后，画布可能变成空白的问题。
+- 升级内核，继续优化性能。
+- 兼容性提醒：由于本版本进行了内核升级以适配即将到来的新功能，本版本会在旧导图首次实际编辑并保存时自动升级文件版本。同一导图在新版本保存后，请不要再使用老版本插件继续编辑或保存，否则可能会出现导图保存失败等兼容性问题。
+
 ## 0.38.0 - 2026-08-12
 
 ### English

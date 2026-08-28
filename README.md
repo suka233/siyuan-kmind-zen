@@ -6,13 +6,12 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.38.0 (2026-08-12)
+## What's new in 0.39.0 (2026-08-28)
 
-- Copy and paste single nodes, multi-selections, and complete node trees across maps and supported KMind Zen hosts.
-- Transfer node images, images in content and notes, embedded assets, and image icons into the target map's asset storage.
-- Cut nodes safely with precise Undo; source nodes remain unchanged if the complete clipboard write fails.
-- Fix images disappearing after copying nodes to another SiYuan map and the resulting target-map save failures.
-- Show lightweight copy, cut, and save feedback in the top-right Zen/read-only mode capsule.
+- Improve the visual presentation of save status and related interface feedback.
+- Fix an issue where the canvas could become blank after expanding or collapsing nodes in a read-only map.
+- Upgrade the core and continue performance improvements.
+- Compatibility notice: When an existing map is first edited and saved in this version, its file version will be upgraded automatically. Do not continue editing or saving that map with an older plugin, as this may cause map save failures or other compatibility issues.
 
 ## Features
 
@@ -72,7 +71,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 - Document-tree mind maps, SiYuan doc-to-map, MOC, and new mirror-block creation require Pro. Existing mirror blocks remain readable and refreshable. Dock maps remain free.
 - Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
-- Maps saved with the new project/root spacing or project-level relationship line settings may not preserve those settings if later opened and saved by an older KMind Zen version.
+- When an existing map is first edited and saved in version 0.39.0 or later, its file version may be upgraded automatically. Do not continue editing or saving that map with an older KMind Zen plugin, as this may cause save failures or discard data that the older version does not understand.
 
 ## QA
 
