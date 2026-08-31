@@ -6,12 +6,17 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.39.0 (2026-08-28)
+## What's new in 0.40.0 (2026-08-31)
 
-- Improve the visual presentation of save status and related interface feedback.
-- Fix an issue where the canvas could become blank after expanding or collapsing nodes in a read-only map.
-- Upgrade the core and continue performance improvements.
-- Compatibility notice: When an existing map is first edited and saved in this version, its file version will be upgraded automatically. Do not continue editing or saving that map with an older plugin, as this may cause map save failures or other compatibility issues.
+- Add one-click subdocument splitting. Open the KMind icon in the top-right corner of a document, choose Heading Outline, then Split into Subdocuments. KMind Zen will split the main document into a hierarchy of SiYuan subdocuments based on its headings and automatically open MOC mode. Give it a try!
+- Fix canvas zoom or pan failing when the wheel is over a regular node, summary, or relationship line.
+- Fix the previous node remaining active after creating a node with Tab or Enter.
+- Fix drag gestures sometimes creating a new root node accidentally and improve the feel of dragging.
+- Fix the wheel intermittently stopping over blank canvas areas on SiYuan 3.8.x.
+- Fix clicking a blank canvas area sometimes failing to clear the active node selection on SiYuan 3.8.x.
+- Improve shortcut detection in SiYuan to address intermittent shortcut failures. If you still encounter an issue, please keep the feedback coming.
+- Improve interaction isolation between KMind Zen and the SiYuan host page to reduce wheel, selection, and shortcut issues caused by host DOM changes.
+- Improve wheel and keyboard event routing between the canvas, node editors, and embedded documents.
 
 ## Features
 
@@ -45,6 +50,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 
 - Create KMind Zen mind maps directly from the SiYuan document tree, with native support for SiYuan tags, links, and related concepts.
 - Turn ordinary SiYuan documents into map views, either as a read-only full block tree preview or as a heading outline organizer, then create an editable child mind map from the result.
+- Split a long SiYuan document into a hierarchy of subdocuments directly from Heading Outline, then continue organizing the result in MOC mode automatically.
 - Use MOC document-tree maps to view a SiYuan document tree as a mind map and write organizing actions such as create, rename, move, reorder, and delete back to SiYuan.
 - Embed read-only mirror blocks in normal SiYuan documents by copying a whole map or a selected node from KMind Zen and pasting it into the editor.
 - Insert block maps into normal SiYuan documents from the slash menu. The note shows a native image preview, the image action button opens the map for editing, and the preview clarity can be adjusted in global settings.

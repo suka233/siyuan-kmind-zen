@@ -1,5 +1,31 @@
 # KMind Zen SiYuan Changelog
 
+## 0.40.0 - 2026-08-31
+
+### English
+
+- Add one-click subdocument splitting. Open the KMind icon in the top-right corner of a document, choose Heading Outline, then Split into Subdocuments. KMind Zen will split the main document into a hierarchy of SiYuan subdocuments based on its headings and automatically open MOC mode. Give it a try!
+- Fix canvas zoom or pan failing when the wheel is over a regular node, summary, or relationship line.
+- Fix the previous node remaining active after creating a node with Tab or Enter.
+- Fix drag gestures sometimes creating a new root node accidentally and improve the feel of dragging.
+- Fix the wheel intermittently stopping over blank canvas areas on SiYuan 3.8.x.
+- Fix clicking a blank canvas area sometimes failing to clear the active node selection on SiYuan 3.8.x.
+- Improve shortcut detection in SiYuan to address intermittent shortcut failures. If you still encounter an issue, please keep the feedback coming.
+- Improve interaction isolation between KMind Zen and the SiYuan host page to reduce wheel, selection, and shortcut issues caused by host DOM changes.
+- Improve wheel and keyboard event routing between the canvas, node editors, and embedded documents.
+
+### 中文
+
+- 新增一键拆分子文档功能。入口：文档右上角 KMind 图标 → 标题大纲 → 拆分为子文档。点击后可按照标题层级将主文档拆分为带有层级结构的思源子文档，并自动进入 MOC 模式。快去试试吧！
+- 修复滚轮位于普通节点、概要或关系线上时无法缩放或平移画布的问题。
+- 修复使用 Tab 或 Enter 创建节点后，旧节点仍保持激活的问题。
+- 修复拖拽操作可能误触发新根节点创建的问题，并优化拖拽手感。
+- 修复思源 3.8.x 中导图画布空白区域滚轮偶尔失效的问题。
+- 修复思源 3.8.x 中点击画布空白处有时无法取消节点选中状态的问题。
+- 优化思源中的快捷键判定逻辑，尝试修复偶发的快捷键失效问题；如果仍有问题，请继续反馈。
+- 改进 KMind Zen 与思源宿主页面的交互隔离，降低宿主 DOM 变化造成滚轮、选区和快捷键异常的概率。
+- 改进画布、节点编辑器和内嵌文档之间的滚轮与键盘事件分流。
+
 ## 0.39.0 - 2026-08-28
 
 ### English
