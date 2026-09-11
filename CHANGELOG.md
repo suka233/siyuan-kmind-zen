@@ -1,5 +1,42 @@
 # KMind Zen SiYuan Changelog
 
+## 0.41.0 - 2026-09-11
+
+### English
+
+#### New
+
+- Add formula shortcuts: type or paste $...$ in node content and notes to create inline formulas, or use $$...$$ in a standalone paragraph to create block formulas.
+- Provide a Backup & Recovery Toolkit at the bottom of the history panel to help export backup mind maps where possible when disk issues, sync issues, or other problems occur. Reminder: your data is invaluable—please back up your local knowledge base regularly.
+
+#### Fixes
+
+- Fix relationship lines not updating their preview in real time when adjusted by dragging.
+- Fix selection loss and interaction issues that could occur when cancelling, switching, or closing the rich-text color picker.
+
+#### Improvements
+
+- Improve text and background color selection with a compact preset palette, options to clear colors, and access to more colors.
+- Improve Chinese and English labels and hints for rich-text toolbars, node content, and note editing.
+
+### 中文
+
+#### 新增
+
+- 支持公式快捷输入：在节点正文和备注中输入或粘贴 $...$ 转换为行内公式，独占段落的 $$...$$ 转换为块公式
+- 历史版本面板底部提供“备份与恢复工具包”，在遇到磁盘、同步或其他问题时，帮助尽可能地导出导图备份。提示：数据无价，请定期备份本地知识库。
+
+#### 修复
+
+- 修复拖拽调整关联线时，线条未实时更新预览的问题。
+- 修复富文本颜色选择器在取消、切换或关闭时可能出现的选区丢失与交互异常。
+
+#### 优化
+
+- 优化文字颜色和背景色选择，提供紧凑预设色板，支持清除颜色和选择更多颜色。
+- 完善富文本工具栏、节点正文和备注编辑相关的中英文提示。
+
+
 ## 0.40.0 - 2026-08-31
 
 ### English

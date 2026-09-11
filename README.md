@@ -6,17 +6,22 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.40.0 (2026-08-31)
+## What's new in 0.41.0 (2026-09-11)
 
-- Add one-click subdocument splitting. Open the KMind icon in the top-right corner of a document, choose Heading Outline, then Split into Subdocuments. KMind Zen will split the main document into a hierarchy of SiYuan subdocuments based on its headings and automatically open MOC mode. Give it a try!
-- Fix canvas zoom or pan failing when the wheel is over a regular node, summary, or relationship line.
-- Fix the previous node remaining active after creating a node with Tab or Enter.
-- Fix drag gestures sometimes creating a new root node accidentally and improve the feel of dragging.
-- Fix the wheel intermittently stopping over blank canvas areas on SiYuan 3.8.x.
-- Fix clicking a blank canvas area sometimes failing to clear the active node selection on SiYuan 3.8.x.
-- Improve shortcut detection in SiYuan to address intermittent shortcut failures. If you still encounter an issue, please keep the feedback coming.
-- Improve interaction isolation between KMind Zen and the SiYuan host page to reduce wheel, selection, and shortcut issues caused by host DOM changes.
-- Improve wheel and keyboard event routing between the canvas, node editors, and embedded documents.
+### New
+
+- Add formula shortcuts: type or paste $...$ in node content and notes to create inline formulas, or use $$...$$ in a standalone paragraph to create block formulas.
+- Provide a Backup & Recovery Toolkit at the bottom of the history panel to help export backup mind maps where possible when disk issues, sync issues, or other problems occur. Reminder: your data is invaluable—please back up your local knowledge base regularly.
+
+### Fixes
+
+- Fix relationship lines not updating their preview in real time when adjusted by dragging.
+- Fix selection loss and interaction issues that could occur when cancelling, switching, or closing the rich-text color picker.
+
+### Improvements
+
+- Improve text and background color selection with a compact preset palette, options to clear colors, and access to more colors.
+- Improve Chinese and English labels and hints for rich-text toolbars, node content, and note editing.
 
 ## Features
 
