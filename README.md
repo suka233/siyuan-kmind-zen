@@ -6,22 +6,11 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.41.0 (2026-09-11)
-
-### New
-
-- Add formula shortcuts: type or paste $...$ in node content and notes to create inline formulas, or use $$...$$ in a standalone paragraph to create block formulas.
-- Provide a Backup & Recovery Toolkit at the bottom of the history panel to help export backup mind maps where possible when disk issues, sync issues, or other problems occur. Reminder: your data is invaluable—please back up your local knowledge base regularly.
-
-### Fixes
-
-- Fix relationship lines not updating their preview in real time when adjusted by dragging.
-- Fix selection loss and interaction issues that could occur when cancelling, switching, or closing the rich-text color picker.
+## What's new in 0.41.1 (2026-09-11)
 
 ### Improvements
 
-- Improve text and background color selection with a compact preset palette, options to clear colors, and access to more colors.
-- Improve Chinese and English labels and hints for rich-text toolbars, node content, and note editing.
+- Improve compatibility between the KMind Zen toolbar and the new mobile toolbar introduced in SiYuan 3.8.2+.
 
 ## Features
 

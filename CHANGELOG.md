@@ -1,5 +1,19 @@
 # KMind Zen SiYuan Changelog
 
+## 0.41.1 - 2026-09-11
+
+### English
+
+#### Improvements
+
+- Improve compatibility between the KMind Zen toolbar and the new mobile toolbar introduced in SiYuan 3.8.2+.
+
+### 中文
+
+#### 优化
+
+- 优化kmind zen 工具栏与思源 3.8.2+ 新增的移动工具栏的兼容问题
+
 ## 0.41.0 - 2026-09-11
 
 ### English
