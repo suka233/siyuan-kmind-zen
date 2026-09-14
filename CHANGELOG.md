@@ -1,5 +1,30 @@
 # KMind Zen SiYuan Changelog
 
+## 0.42.0 - 2026-09-14
+
+### English
+
+#### New
+
+- Add a “WebView compatibility rendering” toggle to improve misaligned images, cloze content, and other node content on some mobile devices. Disabled by default. Access it from the toolbar below the mind map in mobile mode → WebView compatibility rendering.
+
+#### Fixes
+
+- Fix an issue that could cause “Save as template” to fail.
+- Fix document cards potentially becoming blank after switching display modes due to preview generation during saving.
+
+### 中文
+
+#### 新增
+
+- 新增“WebView 兼容渲染”开关，用于改善部分移动设备中图片、挖空等节点内容的显示错位。默认关闭，入口：移动端模式下导图下方工具栏 → WebView 兼容渲染
+
+#### 修复
+
+- 修复“保存模板”可能失败的问题
+- 修复文档卡切换显示模式后，可能因保存预览而出现内容空白的问题。
+
+
 ## 0.41.1 - 2026-09-11
 
 ### English

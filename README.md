@@ -6,11 +6,16 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.41.1 (2026-09-11)
+## What's new in 0.42.0 (2026-09-14)
 
-### Improvements
+### New
 
-- Improve compatibility between the KMind Zen toolbar and the new mobile toolbar introduced in SiYuan 3.8.2+.
+- Add a “WebView compatibility rendering” toggle to improve misaligned images, cloze content, and other node content on some mobile devices. Disabled by default. Access it from the toolbar below the mind map in mobile mode → WebView compatibility rendering.
+
+### Fixes
+
+- Fix an issue that could cause “Save as template” to fail.
+- Fix document cards potentially becoming blank after switching display modes due to preview generation during saving.
 
 ## Features
 
