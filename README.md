@@ -6,16 +6,31 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.42.0 (2026-09-14)
+## What's new in 0.43.0 (2026-09-16)
 
 ### New
 
-- Add a “WebView compatibility rendering” toggle to improve misaligned images, cloze content, and other node content on some mobile devices. Disabled by default. Access it from the toolbar below the mind map in mobile mode → WebView compatibility rendering.
+- Add horizontal and vertical timeline layouts.
+- Add left- and right-facing fishbone layouts with support for multi-level nodes and summaries.
+- Add environment capability notices that explain the reason and suggest access methods when required validation capabilities are unavailable, such as when accessing via plain HTTP.
 
 ### Fixes
 
-- Fix an issue that could cause “Save as template” to fail.
-- Fix document cards potentially becoming blank after switching display modes due to preview generation during saving.
+- Fix layout settings such as compact density and node spacing not being restored correctly when reopening some mind maps.
+- Fix layout density changes sometimes having no effect unless another option was selected first.
+- Fix the keyboard editing accessory bar sometimes remaining visible after finishing note editing on mobile.
+- Fix node mirrors sometimes failing to display due to a cloning error during initialization or refresh.
+- Fix some node and note editing entry points failing to bring up the soft keyboard on native HarmonyOS.
+- Fix some older mind maps failing to open correctly because of legacy file and image validation metadata.
+
+### Improvements
+
+- Improve on-demand loading of image display resources to reduce unnecessary requests for off-screen nodes.
+- Improve viewport adjustment during mobile editing to reduce obstruction of the content being edited by the soft keyboard and editing accessory bar.
+- Improve import compatibility for some older mind map files to reduce incorrect blocking caused by legacy validation metadata.
+- Improve the performance of reading the Dock mind map list.
+- Reduce duplicate resource reads when opening mind maps containing images.
+- Improve upgrade protection for older mind maps: opening does not automatically rewrite the original file, and an original project backup is retained before the first migration save.
 
 ## Features
 

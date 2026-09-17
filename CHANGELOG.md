@@ -1,5 +1,59 @@
 # KMind Zen SiYuan Changelog
 
+## 0.43.0 - 2026-09-16
+
+### English
+
+#### New
+
+- Add horizontal and vertical timeline layouts.
+- Add left- and right-facing fishbone layouts with support for multi-level nodes and summaries.
+- Add environment capability notices that explain the reason and suggest access methods when required validation capabilities are unavailable, such as when accessing via plain HTTP.
+
+#### Fixes
+
+- Fix layout settings such as compact density and node spacing not being restored correctly when reopening some mind maps.
+- Fix layout density changes sometimes having no effect unless another option was selected first.
+- Fix the keyboard editing accessory bar sometimes remaining visible after finishing note editing on mobile.
+- Fix node mirrors sometimes failing to display due to a cloning error during initialization or refresh.
+- Fix some node and note editing entry points failing to bring up the soft keyboard on native HarmonyOS.
+- Fix some older mind maps failing to open correctly because of legacy file and image validation metadata.
+
+#### Improvements
+
+- Improve on-demand loading of image display resources to reduce unnecessary requests for off-screen nodes.
+- Improve viewport adjustment during mobile editing to reduce obstruction of the content being edited by the soft keyboard and editing accessory bar.
+- Improve import compatibility for some older mind map files to reduce incorrect blocking caused by legacy validation metadata.
+- Improve the performance of reading the Dock mind map list.
+- Reduce duplicate resource reads when opening mind maps containing images.
+- Improve upgrade protection for older mind maps: opening does not automatically rewrite the original file, and an original project backup is retained before the first migration save.
+
+### 中文
+
+#### 新增
+
+- 新增横向、纵向时间轴布局。
+- 新增左右两种鱼骨图布局，支持多级节点和概要。
+- 增加运行环境能力提示：通过普通 HTTP 等环境访问、缺少必要校验能力时，明确说明原因及建议的访问方式。
+
+#### 修复
+
+- 修复部分导图重新打开后，紧凑密度、节点间距等布局设置未正确恢复的问题。
+- 修复部分情况下切换布局密度没有反应，需要先切换其他选项的问题。
+- 修复移动端备注结束编辑后，键盘编辑附件栏可能残留的问题。
+- 修复节点镜像初始化或刷新时，可能出现克隆错误而无法显示的问题。
+- 修复原生鸿蒙端编辑节点、备注时，部分入口无法唤起软键盘的问题。
+- 修复部分旧版导图因历史文件及图片校验信息而无法正常打开的问题。
+
+#### 优化
+
+- 优化图片显示资源的按需加载，减少屏外节点不必要的资源请求。
+- 优化移动端编辑时的视口避让，减少软键盘和编辑附件栏遮挡正在编辑内容的情况。
+- 改善部分旧版导图文件的导入兼容性，减少历史校验信息导致的误拦截。
+- 优化 Dock 导图列表读取性能。
+- 减少打开含图片导图时的重复资源读取。
+- 完善旧版导图升级保护：打开时不自动改写原文件，首次迁移保存前保留原始项目备份。
+
 ## 0.42.0 - 2026-09-14
 
 ### English
