@@ -6,31 +6,27 @@ KMind Zen is a next-generation professional mind mapping tool that started in Si
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.43.0 (2026-09-16)
+## What's new in 0.44.0 (2026-09-17)
 
 ### New
 
-- Add horizontal and vertical timeline layouts.
-- Add left- and right-facing fishbone layouts with support for multi-level nodes and summaries.
-- Add environment capability notices that explain the reason and suggest access methods when required validation capabilities are unavailable, such as when accessing via plain HTTP.
+- Add outline mode on mobile, accessible from the top-left corner of the mind map.
+- Add SiYuan interface entry options to global settings: show the document tree KMind menu directly, place it in the Plugins submenu, or hide it.
+- Allow hiding the document-to-mind-map shortcut button while keeping the command available through the document's More → Plugins menu.
+- Allow temporarily hiding SiYuan's bottom navigation bar in mobile document tree mind maps to make more room for editing, with an entry to restore it.
 
 ### Fixes
 
-- Fix layout settings such as compact density and node spacing not being restored correctly when reopening some mind maps.
-- Fix layout density changes sometimes having no effect unless another option was selected first.
-- Fix the keyboard editing accessory bar sometimes remaining visible after finishing note editing on mobile.
-- Fix node mirrors sometimes failing to display due to a cloning error during initialization or refresh.
-- Fix some node and note editing entry points failing to bring up the soft keyboard on native HarmonyOS.
-- Fix some older mind maps failing to open correctly because of legacy file and image validation metadata.
+- Fix a possible blank screen when saving an edited note or clicking outside to close it, on both desktop and mobile.
+- Fix scrolling issues in the mobile tools and project settings panels that could leave some options clipped.
 
 ### Improvements
 
-- Improve on-demand loading of image display resources to reduce unnecessary requests for off-screen nodes.
-- Improve viewport adjustment during mobile editing to reduce obstruction of the content being edited by the soft keyboard and editing accessory bar.
-- Improve import compatibility for some older mind map files to reduce incorrect blocking caused by legacy validation metadata.
-- Improve the performance of reading the Dock mind map list.
-- Reduce duplicate resource reads when opening mind maps containing images.
-- Improve upgrade protection for older mind maps: opening does not automatically rewrite the original file, and an original project backup is retained before the first migration save.
+- Simplify the mobile header and bottom toolbar, and display save status separately at the top right to reduce canvas obstruction.
+- Show common actions according to browsing, node selection, and editing states, with less frequent actions organized in a grouped tools panel.
+- Reduce header space and improve keyboard editing actions in mobile outline mode, including continuous insertion of sibling and child nodes.
+- Improve edit commit checks when switching between map and outline views, preserving the current editing state if input is unfinished or a commit fails.
+- Prefer SiYuan's official API for the document-to-mind-map shortcut button while retaining compatibility with older versions.
 
 ## Features
 

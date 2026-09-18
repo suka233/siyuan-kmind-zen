@@ -1,5 +1,51 @@
 # KMind Zen SiYuan Changelog
 
+## 0.44.0 - 2026-09-17
+
+### English
+
+#### New
+
+- Add outline mode on mobile, accessible from the top-left corner of the mind map.
+- Add SiYuan interface entry options to global settings: show the document tree KMind menu directly, place it in the Plugins submenu, or hide it.
+- Allow hiding the document-to-mind-map shortcut button while keeping the command available through the document's More → Plugins menu.
+- Allow temporarily hiding SiYuan's bottom navigation bar in mobile document tree mind maps to make more room for editing, with an entry to restore it.
+
+#### Fixes
+
+- Fix a possible blank screen when saving an edited note or clicking outside to close it, on both desktop and mobile.
+- Fix scrolling issues in the mobile tools and project settings panels that could leave some options clipped.
+
+#### Improvements
+
+- Simplify the mobile header and bottom toolbar, and display save status separately at the top right to reduce canvas obstruction.
+- Show common actions according to browsing, node selection, and editing states, with less frequent actions organized in a grouped tools panel.
+- Reduce header space and improve keyboard editing actions in mobile outline mode, including continuous insertion of sibling and child nodes.
+- Improve edit commit checks when switching between map and outline views, preserving the current editing state if input is unfinished or a commit fails.
+- Prefer SiYuan's official API for the document-to-mind-map shortcut button while retaining compatibility with older versions.
+
+### 中文
+
+#### 新增
+
+- 移动端新增大纲模式，可在导图左上角切换。
+- 全局设置新增“思源界面入口”选项，支持将文档树 KMind 菜单直接显示、收起到“插件”菜单或隐藏。
+- 支持隐藏文档转导图快捷按钮，隐藏后仍可通过文档“更多 → 插件”菜单使用。
+- 移动端文档树导图支持临时隐藏思源底部导航栏，为编辑留出更多空间，并提供恢复入口。
+
+#### 修复
+
+- 修复编辑备注后，保存或点击外部关闭时可能导致界面白屏的问题，覆盖桌面端和移动端。
+- 修复移动端工具面板、项目设置面板无法正常滚动，部分选项被裁剪的问题。
+
+#### 优化
+
+- 精简移动端顶部信息和底部工具栏，将保存状态独立显示在右上角，减少画布遮挡。
+- 根据浏览、节点选择和编辑状态展示常用操作，低频功能集中到分组工具面板。
+- 优化移动端大纲的顶部占位和键盘编辑操作，支持连续添加同级、子级节点。
+- 完善导图与大纲切换时的编辑提交检查，输入尚未完成或提交失败时保留当前编辑状态。
+- 文档转导图快捷按钮优先使用思源官方接口，同时保留旧版本适配。
+
 ## 0.43.0 - 2026-09-16
 
 ### English
