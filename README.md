@@ -1,32 +1,60 @@
 # KMind Zen for SiYuan (Public Beta)
 
-[中文说明](https://github.com/suka233/siyuan-kmind-zen/blob/main/README_zh_CN.md)
+[中文说明](https://github.com/suka233/siyuan-kmind-zen/blob/master/README_zh_CN.md)
 
 KMind Zen is a next-generation professional mind mapping tool that started in SiYuan and is now expanding into a broader ecosystem. Website: https://kmind.app
 
 Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core, interface, and interaction model for greater flexibility and room to grow. Today, KMind Zen is available as a SiYuan plugin, an Obsidian plugin, a web app, a standalone Mac app, and an OpenClaw Skill.
 
-## What's new in 0.44.0 (2026-09-17)
+![A KMind Zen map growing to-dos, notes, comments, icons, tags, links, cloze deletions, a formula, a relationship line, and nested summaries](assets/showcase-content.en-US.webp)
 
-### New
+**Version:** `0.45.0` · [Changelog](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [Release notes on kmind.app](https://kmind.app/en/changelog/siyuan)
 
-- Add outline mode on mobile, accessible from the top-left corner of the mind map.
-- Add SiYuan interface entry options to global settings: show the document tree KMind menu directly, place it in the Plugins submenu, or hide it.
-- Allow hiding the document-to-mind-map shortcut button while keeping the command available through the document's More → Plugins menu.
-- Allow temporarily hiding SiYuan's bottom navigation bar in mobile document tree mind maps to make more room for editing, with an entry to restore it.
+## See It in Action
 
-### Fixes
+### Built for SiYuan
 
-- Fix a possible blank screen when saving an edited note or clicking outside to close it, on both desktop and mobile.
-- Fix scrolling issues in the mobile tools and project settings panels that could leave some options clipped.
+Turn a SiYuan document into a map view: preview the full block tree or organize it by headings, then create an editable child mind map from the result.
 
-### Improvements
+![Converting a SiYuan document into a mind map view and switching back from the top-right capsule](assets/siyuan-doc-to-map.en-US.webp)
 
-- Simplify the mobile header and bottom toolbar, and display save status separately at the top right to reduce canvas obstruction.
-- Show common actions according to browsing, node selection, and editing states, with less frequent actions organized in a grouped tools panel.
-- Reduce header space and improve keyboard editing actions in mobile outline mode, including continuous insertion of sibling and child nodes.
-- Improve edit commit checks when switching between map and outline views, preserving the current editing state if input is unfinished or a commit fails.
-- Prefer SiYuan's official API for the document-to-mind-map shortcut button while retaining compatibility with older versions.
+Drag a SiYuan block onto the canvas to create a block card. Text typed in the card or in the original block shows up on the other side.
+
+![Dragging a SiYuan block onto the canvas to create a block card that stays in sync with the block](assets/siyuan-drag-block-card.en-US.webp)
+
+Insert a block map from the slash menu. It renders as a native image preview inside the document and reopens for editing from the image action button or the context menu.
+
+![Inserting a block map from the slash menu and reopening it for editing](assets/siyuan-block-map.en-US.webp)
+
+### One node, many kinds of content
+
+To-dos, notes, comments, icons, tags, external and internal links, cloze deletions, LaTeX formulas, relationship lines, and summaries of summaries all live on the same map, and each of them is edited in place.
+
+![Close-up of a map as to-dos, notes, comments, icons, tags, links, cloze, a formula, a relationship line, and nested summaries are added](assets/showcase-content-focus.en-US.webp)
+
+### Edit the same map as a canvas or an outline
+
+Switch between Map, Split, and Outline views from the top bar. In Split view the canvas and the outline sit side by side and stay in sync.
+
+![Switching the same map from Map view to Split view and then to Outline view](assets/appearance-outline-split.en-US.webp)
+
+Drag a canvas node onto an outline row to move it there, or drag an outline row back onto a canvas node to make it a child. Structure changes show up on both sides immediately.
+
+![In Split view, dragging a canvas node into the outline and an outline row back onto a canvas node](assets/appearance-outline-drag.en-US.webp)
+
+### Themes that follow light and dark mode
+
+Every official theme ships with a light and a dark variant, so the map follows SiYuan's appearance without a manual toggle. A local theme designer and `.kmind-theme.json` import/export take it further.
+
+![The same map cycling through the official themes, each in light and dark mode](assets/showcase-themes.en-US.webp)
+
+### Layouts for different kinds of thinking
+
+Logic chart, two-sided mind map, timeline, and fishbone. Switch the layout of an existing map without rebuilding it.
+
+![The same map switching between logic chart, mind map, timeline, and fishbone layouts](assets/showcase-layouts.en-US.webp)
+
+Step-by-step tutorials with more clips: [SiYuan plugin tutorials](https://kmind.app/en/tutorials/siyuan-plugin-features) and the full [tutorial index](https://kmind.app/en/tutorials).
 
 ## Features
 

@@ -1,5 +1,57 @@
 # KMind Zen SiYuan Changelog
 
+## 0.45.0 - 2026-09-27
+
+### English
+
+#### Fixes
+
+- Fix delayed outline updates after expanding by level, undoing, or redoing, and inconsistent collapsed states across map, outline, and split views.
+- Fix some node styles not refreshing promptly after switching between light and dark themes.
+- Fix the context menu opening unexpectedly while panning the canvas with the right mouse button, and incorrect context menu behavior after dragging.
+- Fix incorrect export dimensions, text wrapping, and clipping that could occur when a mind map tab is hidden or during consecutive exports.
+- Fix shortcuts such as delete, undo, and zoom sometimes becoming unresponsive after selecting a node or summary in a document tree mind map.
+- Fix document content being overwritten during asynchronous block mind map creation, and prevent accidental deletion of the source project when the document update result is uncertain.
+- Fix incorrect update times shown in document cards and document search results.
+- Fix official theme names and source labels not being properly localized when creating mind maps in the English interface.
+- Fix default titles for new child documents in MOC document trees not following the plugin language.
+
+#### Improvements
+
+- Improve feedback for Copy as Image with image generation progress, copy success messages, and clipboard restriction notices.
+- Show only the current platform's keyboard shortcuts in context menus to leave more room for menu labels.
+- Adjust the size of the map, outline, and split view buttons to better fit the toolbar.
+- Generate an actual mind map preview when creating a block mind map, replacing the fixed placeholder image.
+
+#### Other
+
+- Add animated feature demos to the plugin README pages.
+
+### 中文
+
+#### 修复
+
+- 修复大纲模式按层级展开、撤销和重做后显示未及时更新，以及导图、大纲、分屏之间折叠状态不一致的问题。
+- 修复切换明暗主题后，部分节点样式未及时刷新的问题。
+- 修复右键拖动画布时意外弹出菜单，以及拖动后右键菜单响应异常的问题。
+- 修复导图标签页隐藏或连续导出时，可能出现的导出尺寸异常、文字换行和裁剪问题。
+- 修复文档树导图选中节点或概要后，删除、撤销、缩放等快捷键可能失效的问题。
+- 修复块导图异步创建期间的正文覆盖问题，并避免在正文提交结果不明确时误删源项目。
+- 修复文档卡和文档搜索结果中的更新时间显示异常。
+- 修复英文界面中新建导图的官方主题名称、来源标签未正确本地化的问题。
+- 修复 MOC 文档树新建子文档的默认标题未跟随插件语言的问题。
+
+#### 优化
+
+- 完善“复制为图片”的状态反馈，显示图片生成进度、复制成功及剪贴板受限提示。
+- 右键菜单仅显示当前平台的快捷键提示，减少对菜单标题的挤占。
+- 调整导图、大纲和分屏切换按钮的尺寸，使其与工具栏更协调。
+- 新建块导图直接生成真实导图预览，替换原先的固定占位图片。
+
+#### 其它
+
+- 插件说明页补充功能演示动图。
+
 ## 0.44.0 - 2026-09-17
 
 ### English
