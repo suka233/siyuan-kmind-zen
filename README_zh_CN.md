@@ -8,7 +8,7 @@ KMind Zen 是全新的专业导图工具，起步于思源，走向更广阔的�
 
 ![一张 KMind Zen 导图依次长出待办、备注、批注、图标、标签、链接、挖空、公式、关联线和两层概要](assets/showcase-content.zh-CN.webp)
 
-**版本：** `0.45.0` · [更新日志](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [官网更新说明](https://kmind365.cn/zh/changelog/siyuan)
+**版本：** `0.46.0` · [更新日志](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [官网更新说明](https://kmind365.cn/zh/changelog/siyuan)
 
 ## 效果预览
 

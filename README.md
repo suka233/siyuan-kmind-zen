@@ -8,7 +8,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 
 ![A KMind Zen map growing to-dos, notes, comments, icons, tags, links, cloze deletions, a formula, a relationship line, and nested summaries](assets/showcase-content.en-US.webp)
 
-**Version:** `0.45.0` · [Changelog](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [Release notes on kmind.app](https://kmind.app/en/changelog/siyuan)
+**Version:** `0.46.0` · [Changelog](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [Release notes on kmind.app](https://kmind.app/en/changelog/siyuan)
 
 ## See It in Action
 

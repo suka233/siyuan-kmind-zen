@@ -1,5 +1,33 @@
 # KMind Zen SiYuan Changelog
 
+## 0.46.0 - 2026-09-27
+
+### English
+
+#### Fixes
+
+- Fix possible crashes when continuing to edit and save some large mind maps after reopening them.
+- Fix autosave completion potentially overwriting nodes added, text edited, or content being typed while the save was in progress.
+- Fix subsequent saves potentially failing after repeated edits to some mind maps with embedded images.
+
+#### Improvements
+
+- Reduce redundant file reads and asset checks during saving to lower save overhead.
+- Improve preview refresh during consecutive saves to reduce redundant processing of outdated preview tasks.
+
+### 中文
+
+#### 修复
+
+- 修复部分大导图在重新打开后继续编辑、保存时可能闪退的问题。
+- 修复自动保存完成时，可能覆盖保存期间新增的节点、已修改的正文或正在输入内容的问题。
+- 修复部分含内嵌图片的导图在连续编辑后，后续保存可能失败的问题。
+
+#### 优化
+
+- 减少保存过程中重复的文件读取与资源检查，降低保存开销。
+- 优化连续保存时的预览刷新，减少过期预览任务的重复处理。
+
 ## 0.45.0 - 2026-09-27
 
 ### English
