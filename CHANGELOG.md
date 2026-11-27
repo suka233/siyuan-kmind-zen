@@ -1,5 +1,93 @@
 # KMind Zen SiYuan Changelog
 
+## 0.47.0 - 2026-11-26
+
+### English
+
+#### New
+
+- Whiteboard: on the same canvas as your mind map, handwrite notes (pen and highlighter, pressure-sensitive with a pen tablet or stylus), add sticky notes, draw rectangles, ellipses and diamonds, write text boxes, place images, and draw arrows.
+- Whiteboard arrows can connect to mind map nodes and follow them when the nodes move; double-click an arrow to add a text label.
+- Whiteboard shortcuts for flow: switch tools with a single key, lock a tool to keep drawing, press Tab to create the next sticky note, erase whole strokes, and have the style panel remember your last style.
+- Copy a whiteboard selection as an image; exported images include whiteboard content.
+- Project search finds text on the whiteboard, in sticky notes, shapes, text boxes and arrow labels.
+- Copy a mind map branch and paste it onto the whiteboard as text.
+- The whiteboard follows the light or dark mode of your theme, and highlighter strokes stay legible in dark mode.
+- Outline map: choose “KMind outline map” in the document tree or document menu to open a list-based SiYuan document as a mind map, with the map on the left and the document on the right. Editing, adding, dragging, indenting and collapsing in the map write straight back to the document, and undo restores the map and the document together. Supports editing inside nodes, layout direction, built-in themes, node colors, summaries and relationship lines, and also works on phones. Requires SiYuan 3.7.0 or later.
+- When a map fails to open, you can choose to send diagnostic information, or export a diagnostic package as a ZIP and pass it to us yourself.
+
+#### Fixes
+
+- After starting a relationship line, the first click on the target node now connects it (previously the first click only selected the node, and the next click added an extra line).
+- Arrow keys combined with Alt, Shift, Ctrl or Cmd on the canvas now go to keyboard shortcuts instead of moving the selection: Alt+↑/↓ moves nodes and Alt+←/→ collapses or expands them.
+- Fix some valid older map files (with legacy collaboration data, exported packages without an asset list, or large maps) being wrongly rejected when opening or importing them.
+- Fix the map context menu extending beyond the canvas or being covered by the canvas toolbar; submenus no longer stay where they were when the menu is reopened.
+- Fix MOC maps not collapsing or expanding.
+- Fix the dock being unable to open or create maps on phones running SiYuan earlier than 3.8.2.
+- Fix SiYuan editors inside block cards, document cards and outline maps not being fully destroyed after closing on SiYuan 3.8.6 phones and tablets.
+- Fix block map previews in documents possibly showing unsaved edits or outdated content; previews are now generated from the saved version, including the last save before the tab closes.
+- Plugin dialogs and messages now follow the SiYuan interface language instead of the system language.
+
+#### Improvements
+
+- Raise the size limit for opening, restoring and migrating a single map file to 250 MiB.
+- Maps are now saved as plain map data (JSON) with atomic writes, so large maps save faster and files are smaller; nothing is written while a sync is in progress.
+- When the same map is open in several windows, split panes or floating windows, only one place can edit it; the others are read-only and refresh after each save.
+- When a save finds the map changed elsewhere, both versions are stored in history first, and then you can choose Reload, Overwrite, Save as copy or Later.
+- Open maps are checked right after a SiYuan sync finishes: maps without unsaved edits load the new version, and maps with unsaved edits show the conflict dialog immediately.
+- Read-only, legacy data and similar notices now appear in a capsule at the top right of the editor.
+
+#### Other
+
+- Phones, tablets and other touch devices show whiteboard content but do not offer whiteboard editing.
+- A whiteboard created by a newer version that this version cannot read opens read-only, and the other maps in the same project stay editable.
+- The minimum SiYuan version is raised from 3.0.0 to 3.1.0.
+- Important: update every device that syncs the same workspace at the same time. A map is migrated to the new format the first time it is saved, and its original file is backed up to history and pinned beforehand. After migration, older plugin versions stop when they open the map and do not write to it: 0.41.0 to 0.46.0 show that the map needs a safety check, and 0.40.0 and earlier show an initialization error. Do not delete map files when an older version suggests it.
+
+### 中文
+
+白板宣传视频：[到 B 站观看](https://www.bilibili.com/video/BV1wp17znEpY/)
+
+#### 新增
+
+- 白板：在导图的同一张画布上手写批注（钢笔、荧光笔，用数位板或触控笔时有压感）、贴便签、画矩形 / 椭圆 / 菱形、写文字框、放图片、画箭头。
+- 白板箭头可以连到导图节点，拖动节点时箭头跟着走；双击箭头可以加文字标签。
+- 白板效率操作：单键切换工具、锁定工具连续画、Tab 连续新建便签、整笔橡皮、样式面板记住上次的样式。
+- 白板选区可以复制为图片，导出图片时包含白板内容。
+- 项目搜索可以搜到白板里的文字（便签、形状、文字框、箭头标签）。
+- 复制导图分支，粘贴到白板上变成一段文字。
+- 白板跟随主题明暗，深色模式下荧光笔依然清晰。
+- 大纲导图：在文档树或文档菜单里选“KMind 大纲导图”，把以列表为主的思源文档打开为导图，左边是导图，右边是文档。在导图里编辑、新增、拖动、缩进、折叠，会直接写回文档；撤销时导图和文档一起恢复。支持节点内直接编辑、布局方向、内置主题、节点颜色、概要与关联线，手机上也能用。需要思源 3.7.0 及以上。
+- 导图打不开时，可以自愿发送诊断信息，或把诊断包导出为 ZIP 再自己转交给我们。
+
+#### 修复
+
+- 开始画关联线后，第一次点目标节点就能连上（以前第一次只会选中，下一次点击会多连一条）。
+- 画布上 Alt / Shift / Ctrl / Cmd + 方向键交给快捷键处理：Alt+↑/↓ 移动节点，Alt+←/→ 折叠或展开，不再被当成移动选中。
+- 修复部分合法的旧导图文件（旧协作数据、缺资源清单的导出包、体积较大的导图）打开或导入时被误拦的问题。
+- 修复导图右键菜单超出画布或被画布工具栏挡住的问题；关闭后再打开时，子菜单不再停在上次的位置。
+- 修复 MOC 导图不能折叠和展开的问题。
+- 修复思源 3.8.2 以前的手机上，侧栏无法打开或新建导图的问题。
+- 修复思源 3.8.6 的手机和平板上，块卡、文档卡、大纲导图里的思源编辑器关闭后没有完整销毁的问题。
+- 修复文档里的块导图预览可能带上未保存的修改或旧内容的问题；现在按已保存的版本生成，关闭标签页前的最后一次保存也会进入预览。
+- 插件的对话框和提示现在跟随思源界面语言，不再跟随系统语言。
+
+#### 优化
+
+- 打开、恢复和迁移的单个导图文件上限提高到 250 MiB。
+- 导图改为只保存正文 JSON 并原子写入，大导图保存更快、文件更小；同步进行中不写入。
+- 同一张图在多个窗口、分屏或浮窗中打开时只有一处可编辑，其余只读并在每次保存后自动刷新。
+- 保存时发现导图已在别处被修改，先把两边的版本存入历史，再让你选择重载、覆盖、另存副本或稍后。
+- 思源同步完成后立即检查打开中的导图：没有未保存修改的直接载入新版本，有未保存修改的马上弹出冲突框。
+- 只读、旧数据等提示移到编辑器右上角的胶囊里。
+
+#### 其它
+
+- 手机、平板等触屏设备只显示白板内容，不提供白板编辑。
+- 由更新版本创建、当前版本读不懂的白板会以只读方式打开，同一项目里的其它导图照常编辑。
+- 最低思源版本从 3.0.0 提高到 3.1.0。
+- 重要：请同时更新所有同步同一工作空间的设备。导图第一次保存时会迁移成新格式，迁移前原文件会置顶备份到历史。迁移后，旧版插件打开这张图只会停住、不会写入：0.41.0 到 0.46.0 显示“需要先做安全检查”，0.40.0 及更早显示初始化失败。请不要按旧版的提示删除导图文件。
+
 ## 0.46.0 - 2026-09-27
 
 ### English

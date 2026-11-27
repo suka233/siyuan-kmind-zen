@@ -8,7 +8,7 @@ Unlike KMind2, KMind Zen was rebuilt from the ground up, with a redesigned core,
 
 ![A KMind Zen map growing to-dos, notes, comments, icons, tags, links, cloze deletions, a formula, a relationship line, and nested summaries](assets/showcase-content.en-US.webp)
 
-**Version:** `0.46.0` · [Changelog](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [Release notes on kmind.app](https://kmind.app/en/changelog/siyuan)
+**Version:** `0.47.0` · [Changelog](https://github.com/suka233/siyuan-kmind-zen/blob/master/CHANGELOG.md) · [Release notes on kmind.app](https://kmind.app/en/changelog/siyuan)
 
 ## See It in Action
 
@@ -59,7 +59,7 @@ Step-by-step tutorials with more clips: [SiYuan plugin tutorials](https://kmind.
 ## Features
 
 - Every KMind Zen host runs on the same core. A single KMind Zen source file can move smoothly between SiYuan, Obsidian, the web app, and the standalone desktop app. You can also use the KMind Zen Skill with AI tools to turn source material into editable mind maps offline. One practical workflow is converting lecture or meeting recordings into KMind Zen documents that you can refine and archive later.
-- A purpose-built `.kmindz.svg` source format. It contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
+- A purpose-built `.kmindz.svg` source format. An exported `.kmindz.svg` contains the full editable source document while still being a valid SVG image, so you can preview the map without opening it first.
 - Portable node copy and cut across maps and supported KMind Zen hosts, including referenced images and other node assets.
 - Smart themes with both light and dark variants across the official theme set, switching automatically with no manual theme toggle required.
 - A local theme designer and theme library, with import/export support for `.kmind-theme.json` sharing packages.
@@ -106,7 +106,7 @@ Step-by-step tutorials with more clips: [SiYuan plugin tutorials](https://kmind.
 - [ ] AI features
 - [ ] Submaps
 - [ ] Flowcharts
-- [ ] Handwriting
+- [x] Handwriting
 - [ ] Collaboration
 
 ## Limitations
@@ -115,7 +115,7 @@ Step-by-step tutorials with more clips: [SiYuan plugin tutorials](https://kmind.
 - Document-tree mind maps, SiYuan doc-to-map, MOC, and new mirror-block creation require Pro. Existing mirror blocks remain readable and refreshable. Dock maps remain free.
 - Full block tree document maps are read-only previews. When complex blocks are created as an editable KMind Zen map, entering edit mode converts them into the editable forms currently supported by KMind Zen, so preview formatting may not be preserved exactly.
 - If you use SiYuan sync, do not edit the same mind map on multiple devices at the same time.
-- When an existing map is first edited and saved in version 0.39.0 or later, its file version may be upgraded automatically. Do not continue editing or saving that map with an older KMind Zen plugin, as this may cause save failures or discard data that the older version does not understand.
+- From 0.47.0, a map is migrated to a new save format the first time it is saved, after its original file is backed up to history and pinned. Older plugin versions stop when they open a migrated map and do not write to it. Update every device that syncs the same workspace together, and do not delete map files when an older version suggests it.
 
 ## QA
 
